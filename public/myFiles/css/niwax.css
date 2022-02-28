@@ -1,0 +1,31 @@
+@import "color.css";
+
+ul {
+    list-style: inside;
+}
+
+p {
+    font-size: 17px;
+    line-height: 28px ;
+    text-align: justify;
+}
+
+.common-heading > span {
+    color: var(--secondary); /*#e60072;*/
+    font-weight: bold;
+    /*text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    display: block;*/
+}
+
+.bg-btn {
+    background: #ffbd84;
+    background: -moz-linear-gradient(left, #ffbd84 0%, #c82721 100%);
+    background: -webkit-linear-gradient(left, #ffbd84 0%,#c82721 100%);
+    background: linear-gradient(to right, #ffbd84 0%,#c82721 100%);
+    -webkit-box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
+    box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
+}

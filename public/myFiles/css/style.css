@@ -1,0 +1,70 @@
+@import "color.css";
+@import "niwax.css";
+
+.h-100vh{
+    height: 100vh !important;
+}
+
+
+h1, h2{
+    color:  var(--primary);
+}
+
+h3, h4,h5{
+    color: var(--secondary);
+}
+
+
+
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.text-right {
+   text-align: right ;
+}
+
+.b-0{
+    bottom: 0 !important;
+}
+
+.h-100vh{
+    height: 100vh !important;
+}
+
+.h-90vh{
+    height: 90vh !important;
+}
+
+.c-success{
+    color : var(--success) !important;
+}
+
+.souligne{
+    border-bottom:1px outset;
+}
+
+.border-warning{
+    color : var(--warning) !important;
+}
+
+.border-white{
+    color : var(--white) !important;
+}
+
+.rounded-2_75{
+    border-radius: 2.75rem !important;
+}
+
+.lh-1_5{
+    line-height: 1.5rem !important;
+}
+
+.lh-2{
+    line-height: 2rem !important;
+}
+
+.rounded-badge{
+
+}

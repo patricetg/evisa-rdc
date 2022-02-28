@@ -1,0 +1,19 @@
+:root{
+    --primary : #c82721; /*#663259; *//* #FF780A; */
+    --secondary : #0472A2 ; /* #B56742 ;*/
+    --warning : #FEAE59;
+    --gris : #f9f9fb;
+    --danger : #ff5253;
+    --light-red : #fceeee;
+    --success : #88c247;
+    --light-success : #effcf5;
+    --black : #151516;
+    --error : #B56742;
+
+    --dark : #050748;
+
+    --white : white;
+    --yellow : #ffbd84; /*#f0f002;*/
+    --light-primary : #ffbd84;
+    
+}
