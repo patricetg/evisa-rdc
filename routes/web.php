@@ -42,6 +42,16 @@ Route::group(["prefix"=>"/","namespace"=>"FrontOffice"],function(){
         "uses" => "FrontOfficeController@epasseport"
     ]);
 
+    Route::get("/equipe",[
+        "as" => "frontOfficeEquipePage",
+        "uses" => "FrontOfficeController@equipe"
+    ]);
+
+    Route::match(["get","post"],"/contact",[
+        "as" => "frontOfficeContactsPage",
+        "uses" => "FrontOfficeController@contacts"
+    ]);
+
 });
 
 Route::group(["prefix"=>"auth","namespace"=>"Authentication"],function (){

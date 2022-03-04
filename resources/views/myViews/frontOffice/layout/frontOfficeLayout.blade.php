@@ -24,6 +24,11 @@
         <link href="{{ asset("templateFiles/niwax/css/darkmode.css") }}" rel="stylesheet">
         <style>html { scroll-behavior: smooth;}</style>
 
+
+        <link href="{{ asset("vendorFiles/notifications/notification.css") }}" rel="stylesheet" />
+        <link href="{{ asset("vendorFiles/sweet-alert2/sweetalert2.min.css") }}" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="{{ asset("vendorFiles/font-awesome/css/all.min.css") }}">
         <link href="{{ asset("myFiles/css/style.css") }}" rel="stylesheet">
 
     </head>
@@ -61,7 +66,8 @@
                             <li><a href="{{route("frontOfficeHomePage")}}#home" class="menu-links">Accueil</a></li>
                             <li><a href="{{ route("frontOfficeEVisaPage") }}" class="menu-links">E-visa</a></li>
                             <li><a href="{{ route("frontOfficeEPasseportPage") }}" class="menu-links">E-passeport</a></li>
-                            <li><a href="#price" class="menu-links">Notre équipe</a></li>
+                            <li><a href="{{ route("frontOfficeEquipePage") }}" class="menu-links">Notre équipe</a></li>
+                            <li><a href="{{ route("frontOfficeContactsPage") }}" class="menu-links">Contacts</a></li>
                             {{--
                             <li><a href="#price" class="menu-links">Price</a></li>
                             <li><a href="#price" class="menu-links">Contact</a></li>
@@ -512,15 +518,16 @@
                         <div class="footerdez-a">
                             {{--<h2>WE WOULD LOVE TO HEAR FROM YOU.</h2>--}}
                             <img src="{{ asset("myFiles/images/visa-passeport2.png") }}" class="img-fluid" alt="">
-                            <p class="mt10">Feel free to reach out if you want to collaborate with us, or simply have a call.</p>
-                            <div class="contactinfo mt30">
+                            <p class="mt10">Une dématérialisation du visa et de la procédure d'obtention du passeport.</p>
+                            {{--<div class="contactinfo mt30">
                                 <a href="mailto:contact@domainame.com">contact@domainame.com <span>→</span></a>
                                 <a href="tel:+91123456790">(91) 123 4567 7890 <span>→</span></a>
-                            </div>
+                            </div>--}}
                         </div>
                     </div>
                     <div class="col-lg-7 col-sm-12">
                         <div class="row fttlnks">
+                            {{--
                             <div class="col-lg-4 col-sm-6 pt40">
                                 <h5>OUR ADDRESS</h5>
                                 <h4>New York</h4>
@@ -528,31 +535,38 @@
                                 <h4 class="mt30">India</h4>
                                 <p>603 FA Forest Avenue, New York, USA 10021</p>
                             </div>
-                            <div class="col-lg-4 col-sm-6 pt40">
-                                <h5>SUPPORT</h5>
+                            --}}
+                            <div class="col-lg-4S col-sm-7 pt40">
+                                <h5>Accès rapide</h5>
                                 <ul class="footer-address-list link-hover">
-                                    <li><a href="get-quote.html">Contact</a></li>
-                                    <li><a href="javascript:void(0)">Customer's FAQ</a></li>
-                                    <li><a href="javascript:void(0)">Refund Policy</a></li>
-                                    <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                    <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-                                    <li><a href="javascript:void(0)">License & Copyright</a></li>
+                                    <li><a href="#">Qu'est-ce que le e-Visa et le e-Passeport ?</a></li>
+                                    <li><a href="#">Pourquoi le e-Visa et le e-Passeport ?</a></li>
+                                    <li><a href="#">Comment obtenir son e-Visa ?</a></li>
+                                    <li><a href="#">Quelle est la procédure du e-Passeport ?</a></li>
+                                    <li><a href="#">Notre équipe</a></li>
+                                    <li><a href="#">Nous contacter</a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-4 col-sm-6 pt40">
-                                <h5>Company</h5>
+                            <div class="col-lg-4S col-sm-5 pt40">
+                                <h5>Contacts</h5>
                                 <ul class="footer-address-list link-hover">
-                                    <li><a href="get-quote.html">Contact</a></li>
-                                    <li><a href="javascript:void(0)">Customer's FAQ</a></li>
-                                    <li><a href="javascript:void(0)">Refund Policy</a></li>
-                                    <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                    <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-                                    <li><a href="javascript:void(0)">License & Copyright</a></li>
+                                    <li>
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="tel:+10000000000">(+91) 0000 000 000</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-envelope"></i>
+                                        <a href="mailto:cal01.application@gmail.com">cal01.application@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-twitter"></i>
+                                        <a href="skype:christian_masit?call">@christian_masit</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="row fttlnks flexend">
-                            <div class="col-lg-4 col-sm-6 pt60">
+                            {{--<div class="col-lg-4 col-sm-6 pt60">
                                 <h5>Follow Us</h5>
                                 <div class="ff-social-icons mt30">
                                     <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
@@ -560,10 +574,10 @@
                                     <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
                                     <a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
                                 </div>
-                            </div>
+                            </div>--}}
                             <div class="col-lg-6 pt60">
                                 <div class="footer-copyrights-">
-                                    <p>© 2020-2022. All Rights Reserved By <a href="https://themeforest.net/user/rajesh-doot/portfolio" target="blank">Rajesh Doot</a></p>
+                                    <p>© 2022. Créé par <a href="https://www.honametech.com/" target="_blank">Honame Tech</a></p>
                                 </div>
                             </div>
                         </div>
@@ -630,6 +644,9 @@
         <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
         <!--common script file-->
         <script src="{{ asset("templateFiles/niwax/js/main.js") }}"></script>
+
+
+
         <script>
             //Owl-Carousel - client logo
             var owl = $('.niwaxwideserviceslider');
@@ -747,5 +764,23 @@
                 }
             });
         </script>
+
+
+
+        <script src="{{ asset("vendorFiles/jquery/jquery.min.js") }}"></script>
+        <script src="{{ asset("vendorFiles/notifications/notify.min.js") }}"></script>
+        <script src="{{ asset("vendorFiles/notifications/notify-metro.js") }}"></script>
+        <script src="{{ asset("vendorFiles/notifications/notifications.js") }}"></script>
+
+        <script src="{{ asset("vendorFiles/sweet-alert2/sweetalert2.min.js") }}"></script>
+        <script src="{{ asset("vendorFiles/jquery.sweet-alert.initS.js") }}"></script>
+
+        <script src="{{ asset("vendorFiles/select2/js/select2.full.min.js") }}"></script>
+
+
+        @include("myViews.shared.report")
+        @include("myViews.shared.confirm")
+
+
     </body>
 </html>

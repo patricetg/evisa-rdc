@@ -22,10 +22,24 @@ p {
 }
 
 .bg-btn {
-    background: #ffbd84;
-    background: -moz-linear-gradient(left, #ffbd84 0%, #c82721 100%);
-    background: -webkit-linear-gradient(left, #ffbd84 0%,#c82721 100%);
-    background: linear-gradient(to right, #ffbd84 0%,#c82721 100%);
+    background: #0472A2;
+    background: -moz-linear-gradient(left, #0472A2 0%, #0472A2 100%);
+    background: -webkit-linear-gradient(left, #0472A2 0%,#0472A2 100%);
+    background: linear-gradient(to right, #0472A2 0%,#0472A2 100%);
     -webkit-box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
     box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
+
+    color : var(--yellow);
+}
+
+
+.bg-gradient1 {
+    background: #0472A2;
+    background: -moz-linear-gradient(top, #0472A2 0%, #fff9f4 100%);
+    background: -webkit-linear-gradient(top, #0472A2 0%,#fff9f4 100%);
+    background: linear-gradient(to bottom, #0472A2 0%,#fff9f4 100%);
+}
+
+.nxlp-b {
+    background: linear-gradient(to right, #e4e55d 0%,#0472A2 100%);
 }

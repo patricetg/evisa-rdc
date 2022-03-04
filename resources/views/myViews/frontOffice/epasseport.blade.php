@@ -1,7 +1,7 @@
 @extends("myViews.frontOffice.layout.frontOfficeLayout")
 
 @section("page")
-    E-visa
+    e-Passeport
 @endsection
 
 @section("firstLevelLayoutBodyContent")
@@ -57,7 +57,7 @@
                 <div class="col-lg-8">
                     <div class="common-heading-2">
                         <span class="text-effect-2">Comment ça marche ?</span>
-                        <h2 class="mb0">Les étapes pour obtenir son passeport congolais</h2>
+                        <h2 class="mb0">Obtenir son passeport congolais</h2>
                     </div>
                 </div>
             </div>
@@ -77,8 +77,8 @@
                                     <span class="badge bg-primary p-3 rounded-circle">1</span>
                                 </a>
                             </h4>
-                            <h6 class="mb10">Votre photo d'identité</h6>
-                            <p>Si vous portez des verres médicaux, ils ne doivent pas être teintés, ni ne doivent avoir de reflet.</p>
+                            <h6 class="mb10">Remplir le formulaire en ligne</h6>
+                            <p>Commencez donc à remplir le <a href="#">formulaire de demande d'e-Passeport</a> en répondant à toutes les questions posées.</p>
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,12 @@
                                     <span class="badge bg-primary p-3 rounded-circle">2</span>
                                 </a>
                             </h4>
-                            <h6 class="mb10">Votre passeport</h6>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h6 class="mb10">Fournir les documents demandés en ligne</h6>
+                            <p>
+                                Pour cela, transformez votre smartphone en scanner grace à l’<a href="#">Appli mobile VISAPASSEPORT</a> pour numériser les documents demandés.
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#piecesPrVisaPasseportModal">Lire plus...</a>
+                                @include("myViews.frontOffice.include.piecesPrVisaPasseportModal")
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -109,11 +113,16 @@
                                     <span class="badge bg-primary p-3 rounded-circle">3</span>
                                 </a>
                             </h4>
-                            <h6 class="mb10">Votre reçu de réservation de vol</h6>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h6 class="mb10">Payer les frais de passeport en ligne</h6>
+                            <p>
+                                Apres une vérification initiale des documents numériques envoyés, vous pouvez payer les frais du passeport avec :
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#methodesPaiementPrVisaPasseportModal">Lire plus...</a>
+                                @include("myViews.frontOffice.include.methodesPaiementPrVisaPasseportModal")
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4S col-sm-6 mt60 wow fadeIn" data-wow-delay="1.1s">
                     <div class="isotope_item h-scl-">
                         <div class="item-image h-scl-base">
@@ -125,253 +134,76 @@
                                     <span class="badge bg-primary p-3 rounded-circle">4</span>
                                 </a>
                             </h4>
-                            <h6 class="mb10">Votre preuve de vaccination anti-codiv, votre Test PCR Codiv-19</h6>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        </div>
-                    </div>
-                </div>
-
-                {{--
-                <div class="col-lg-4 col-sm-6 mt60 wow fadeIn" data-wow-delay="1.4s">
-                    <div class="isotope_item h-scl-">
-                        <div class="item-image h-scl-base">
-                            <a href="#"><img src="{{ asset("templateFiles/niwax/images/portfolio/img-port5.jpg") }}" alt="portfolio" class="img-fluid"/> </a>
-                        </div>
-                        <div class="item-info">
-                            <h4><a href="#">Creative App</a></h4>
-                            <h6 class="mb10">ios, design</h6>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt60 wow fadeIn" data-wow-delay="1.7s">
-                    <div class="isotope_item h-scl-">
-                        <div class="item-image h-scl-base">
-                            <a href="#"><img src="{{ asset("templateFiles/niwax/images/portfolio/img-port6.jpg") }}" alt="portfolio" class="img-fluid"/> </a>
-                        </div>
-                        <div class="item-info">
-                            <h4><a href="#">Creative App</a></h4>
-                            <h6 class="mb10">ios, design</h6>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </div>
-                    </div>
-                </div>
-                --}}
-
-            </div>
-        </div>
-    </section>
-    <!--End Portfolio-->
-
-
-    <section class="dg-portfolio-section pb80 pt80">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-8">
-                    <div class="common-heading-2">
-                        <span class="text-effect-2">Comment payer son e-Visa en ligne ?</span>
-                        <h2 class="mb0">La procédure de paiement du e-Visa</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-12 col-lg-4S col-sm-6S mt60 wow fadeIn" data-wow-delay=".2s">
-                    <p class="text-center">
-                        Le paiement en ligne est un élément indispensable pour mettre en œuvre le e-Visa. Notre objectif est :
-                    </p>
-                    <ul>
-                        <li class="my-2 lh-2">
-                            D'intégrer les types de paiement les plus utilisés dans le monde pour rendre l’e-Visa accessible à plus de monde.
-                        </li>
-                        <li class="my-2 lh-2">
-                            De sécuriser les transactions : certifiée PCI-DSS, système d’authentification forte (3D Secure), protocole SSL qui crypte les numéros de cartes bancaires
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row my-3">
-
-                <div class="col-12 mb-2">
-                    <h3 class="text-center">Méthodes de paiement disponibles </h3>
-                </div>
-
-                <div class="col-md-6 borderS border-primaryS roundedS my-1">
-                    <h4 class="text-center">Cartes Bancaires</h4>
-                    <div class="niwax-client-slider owl-carousel">
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-1.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-2.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-3.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-4.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-5.png") }}" alt="icon"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 borderS border-primaryS roundedS  my-1">
-                    <h4 class="text-center">Portefeuilles Electroniques</h4>
-                    <div class="niwax-client-slider owl-carousel">
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-1.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-2.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-3.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-4.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-5.png") }}" alt="icon"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 borderS border-primaryS roundedS  my-1">
-                    <h4 class="text-center">Mobile Money</h4>
-                    <div class="niwax-client-slider owl-carousel">
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-1.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-2.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-3.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-4.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-5.png") }}" alt="icon"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 borderS border-primaryS roundedS my-1">
-                    <h4 class="text-center">Cryptos</h4>
-                    <div class="niwax-client-slider owl-carousel">
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-1.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-2.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-3.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-4.png") }}" alt="icon"></div>
-                        <div class="awardlogo"> <img src="{{ asset("templateFiles/niwax/images/client/customer-logo-5.png") }}" alt="icon"></div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section class="dg-portfolio-section pb80 pt80">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-8">
-                    <div class="common-heading-2">
-                        <span class="text-effect-2">Comment récupérer son e-Visa en ligne ?</span>
-                        <h2 class="mb0">La récupération du e-Visa</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-12 col-lg-4S col-sm-6S mt60 wow fadeIn" data-wow-delay=".2s">
-                    <p class="text-center">
-                        L'e-Visa (avec un code QR) sera envoyé à l'adresse e-mail fournie lors du processus de demande. Il doit être imprimé pour être présenté aux gardes-frontières.
-                    </p>
-                </div>
-                {{--<div class="col-md-4">
-                    <img src="{{ asset("myFiles/images/e-visa-example.png") }}" class="img-fluid" alt="">
-                </div>--}}
-            </div>
-
-        </div>
-    </section>
-
-
-    <section class="dg-portfolio-section pb80 pt80">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-8">
-                    <div class="common-heading-2">
-                        <span class="text-effect-2">Voyage et contrôle aux frontières de la RD Congo</span>
-                        <h2 class="mb0">Les points d'entrée éligibles avec le e-visa</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-12 col-lg-4S col-sm-6S mt60 wow fadeIn" data-wow-delay=".2s">
-                    <p class="text-center">
-                        L'e-Visa (avec un code QR) sera envoyé à l'adresse e-mail fournie lors du processus de demande. Il doit être imprimé pour être présenté aux gardes-frontières.
-                    </p>
-                </div>
-                {{--<div class="col-md-4">
-                    <img src="{{ asset("myFiles/images/e-visa-example.png") }}" class="img-fluid" alt="">
-                </div>--}}
-            </div>
-
-        </div>
-    </section>
-
-
-
-    <!--Start Portfolio-->
-    <section class="portfolio-section pad-tb">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-9">
-                    <div class="common-heading">
-                        <span>Voyage et contrôle aux frontières de la RD Congo</span>
-                        <h2 class="mb0">Points d'entrée éligibles avec le e-visa</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 mt60 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="isotope_item hover-scale">
-                        <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                            <a href="#">
-                                <img src="{{ asset("myFiles/images/aeroport.png") }}" alt="image" class="img-fluid" />
-                                {{--<img src="{{ asset("templateFiles/niwax/images/portfolio/image-1.jpg") }}" alt="image" class="img-fluid" /> --}}
-                            </a>
-                        </div>
-                        <div class="item-info">
-                            <h4><a href="#">Aéroports Internationaux</a></h4>
+                            <h6 class="mb10">Prise du rendez-vous en ligne</h6>
                             <p>
-                                Aéroport international de Ndjili, Kinshasa (FIH). <br/>
-                                Aéroport international de la Luano, Lubumbashi (FBM). <br/>
-                                Aéroport international de Goma (GOM).
+                                Après confirmation du paiement, prendre rendez-vous pour le Dépôt des documents originaux et la capture d’empreintes biométriques à :
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#lieuRdvPrVisaPasseportModal">Lire plus...</a>
+                                @include("myViews.frontOffice.include.lieuRdvPrVisaPasseportModal")
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mt60 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="isotope_item hover-scale">
-                        <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                            <a href="#"><img src="{{ asset("myFiles/images/frontiere.png") }}" alt="image" class="img-fluid" /> </a>
+
+
+                <div class="col-lg-4S col-sm-6 mt60 wow fadeIn" data-wow-delay="1.4s">
+                    <div class="isotope_item h-scl-">
+                        <div class="item-image h-scl-base">
+                            <a href="#"><img src="{{ asset("myFiles/images/attestation-vaccination.png") }}" alt="portfolio" class="img-fluid"/> </a>
                         </div>
                         <div class="item-info">
-                            <h4><a href="#">Autres points d'entrées de la RDC</a></h4>
-                            <p>Ceci s'appliquera à n'importe quel point d'entrée (frontière) de la République Démocratique du Congo</p>
+                            <h4>
+                                <a href="#">
+                                    <span class="badge bg-primary p-3 rounded-circle">5</span>
+                                </a>
+                            </h4>
+                            <h6 class="mb10">Suivez les démarches sur l'appli VISAPASSEPORT</h6>
+                            <p>
+                                Pour suivre votre demande, veuillez renseigner votre numéro de dossier ou vos informations personnelles sur : <a href="#">l’Appli VISAPASSEPORT.</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-               {{-- <div class="col-md-3 mt60 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="isotope_item hover-scale">
-                        <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                            <a href="#"><img src="{{ asset("templateFiles/niwax/images/portfolio/image-6.jpg") }}" alt="image" class="img-fluid" /> </a>
-                        </div>
-                        <div class="item-info">
-                            <h4><a href="#">Brochure Design</a></h4>
-                            <p>Graphic, Print</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mt60 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="isotope_item hover-scale">
-                        <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                            <a href="#"><img src="{{ asset("templateFiles/niwax/images/portfolio/image-1.jpg") }}" alt="image" class="img-fluid" /> </a>
-                        </div>
-                        <div class="item-info">
-                            <h4><a href="#">Icon Pack</a></h4>
-                            <p>iOs, Android</p>
-                        </div>
-                    </div>
-                </div>--}}
+
             </div>
         </div>
     </section>
     <!--End Portfolio-->
 
 
-
+    <!--Start Portfolio-->
+    <section class="dg-portfolio-section pb80 pt80">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-10">
+                    <div class="common-heading-2">
+                       {{-- <span class="text-effect-2">Comment ça marche ?</span>--}}
+                        <h2 class="mb0">Télécharger l'Application e-Passeport</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <p class="text-center">
+                        <a href="" target="_blank" class="btn-main bg-btn lnk mt30">
+                            <i class="fab fa-google-play fa-2x mr-1"></i>
+                            Télécharger sur Google Pay
+                            <span class="circle"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-center">
+                        <a href="" target="_blank" class="btn-main bg-btn-secondary lnk mt30 text-black">
+                            <i class="fab fa-apple fa-2x mr-1"></i>
+                            Télécharger sur Apple Store
+                            <span class="circle"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Portfolio-->
 
 
 

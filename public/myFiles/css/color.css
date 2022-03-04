@@ -1,5 +1,5 @@
 :root{
-    --primary : #c82721; /*#663259; *//* #FF780A; */
+    --primary : #084788; /*c82721*/; /*#663259; *//* #FF780A; */
     --secondary : #0472A2 ; /* #B56742 ;*/
     --warning : #FEAE59;
     --gris : #f9f9fb;
@@ -13,7 +13,7 @@
     --dark : #050748;
 
     --white : white;
-    --yellow : #ffbd84; /*#f0f002;*/
+    --yellow : #e4e55d; /*ffbd84*/; /*#f0f002;*/
     --light-primary : #ffbd84;
     
 }

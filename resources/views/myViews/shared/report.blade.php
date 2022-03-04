@@ -31,12 +31,15 @@
         }
 
         $(document).ready(function(){
+
             $.Notification.autoHideNotify(
                 type,
                 "top right",
                 title,
                 msg
-            )
+            );
+          //  alert(msg);
+
         })
 
     </script>

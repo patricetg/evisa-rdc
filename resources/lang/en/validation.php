@@ -148,40 +148,11 @@ return [
 
     'attributes' => [
 
+        "nomPren" => "Nom et prénom",
+        "email" => "Email",
+        "objet" => "Objet",
+        "message" => "Message",
 
-        //Table Personne
-        "nomPers" => "Nom",
-        "prenPers" => "Prénom",
-        "emailPers" => "Email",
-        "passPers"=> "Mot de passe",
-        "confirmPass"=> "Mot de passe de confirmation",
-        "postePers" => "Poste",
-        "signature" => "Signature",
-        "signaturePO" => "Signature PO",
-        "useSignaturePO" => "Choix du type de signature",
-
-        //profile
-        "oldPass" => "Ancien mot de passe",
-        "newPass" => "Nouveau mot de passe",
-
-        //Moule
-        "nomMoule" => "Nom du modèle",
-        "indiceFE" => "Indice de la feuille Excel",
-        "plageFE" => "Plage de la feuille Excel",
-        "orientationFE" => "Orientation de la feuille Excel",
-
-        //Societe
-        "codeProtectionFichier" => "Code de vérouillage du fichier validé",
-        "logo" => "Logo",
-        "tampon" => "Tampon",
-        "certificat" => "Certificat",
-
-
-        "filesToValidate" => "Fichiers à valider",
-        "filesToValidate.*" => "Fichier à valider",
-
-        "left" => "Position sur l'horizontal",
-        "top" => "Position sur la verticale",
     ],
 
 ];

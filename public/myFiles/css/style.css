@@ -41,6 +41,19 @@ h3, h4,h5{
     color : var(--success) !important;
 }
 
+.c-white{
+    color : var(--white) !important;
+}
+
+.c-highligh{
+    color : var(--yellow) !important;
+}
+
+a{
+    color : var(--yellow);
+    font-weight: bold;
+}
+
 .souligne{
     border-bottom:1px outset;
 }
@@ -65,6 +78,22 @@ h3, h4,h5{
     line-height: 2rem !important;
 }
 
-.rounded-badge{
-
+@media (min-width: 992px){
+    .modal-lg, .modal-xl {
+        max-width: 800px;
+    }
 }
+
+.bg-btn-secondary {
+    background: #ffbd84;
+    background: -moz-linear-gradient(left, #ffbd84 0%, #c8c7c1 100%);
+    background: -webkit-linear-gradient(left, #ffbd84 0%,#c8c7c1 100%);
+    background: linear-gradient(to right, #ffbd84 0%,#c8c7c1 100%);
+    -webkit-box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
+    box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
+}
+/*
+
+.bg-gradient1 h1{
+    color : var(--white) !important;
+}*/

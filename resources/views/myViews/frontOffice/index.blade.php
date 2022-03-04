@@ -1,7 +1,7 @@
 @extends("myViews.frontOffice.layout.frontOfficeLayout")
 
 @section("page")
-    Acceuil
+    Accueil
 @endsection
 
 @section("firstLevelLayoutBodyContent")
@@ -21,7 +21,7 @@
                             <span class="text-effect-1">Un projet soutenu pour le gouvernement</span>
                             <h1 class="wow fadeIn mt20 mb30" data-wow-delay=".4s">Le E-visa et le E-passeport, plus près de vous que jamais.</h1>
 
-                            <ul class="service-point-2 mt20 wow fadeIn" data-wow-delay=".8s">
+                            <ul class="service-point-2 mt20 wow fadeIn text-black-50" data-wow-delay=".8s">
                                 <li># Pourquoi le E-visa ?</li>
                                 <li># Pourquoi le E-passeport ?</li>
                                 <li># Comment ça fonctionne ?</li>
@@ -87,8 +87,9 @@
 --}}
 
                                 <a href="#" class="btn-main bg-btn lnk mt30 text-center">
+                                    <i class="fa fa-file-download fa-2x mr-1"></i>
                                     Télécharger
-                                    <i class="fa-solid fa-file-arrow-down"></i>
+                                    {{--<i class="fa-solid fa-file-arrow-down"></i>--}}
                                     {{--<i class="fas fa-chevron-right fa-icon"></i>--}}
                                     <span class="circle"></span>
                                 </a>
@@ -122,7 +123,7 @@
                 <div class="col-lg-7">
                     <div class="common-heading text-center">
                         {{--<span class="text-effect-2">Our Best Services</span>--}}
-                        <h2 class="mb30">Le projet VISA-PASSEPORT</h2>
+                        <h2 class="mb30 c-highligh">Le projet VISA-PASSEPORT</h2>
                     </div>
                 </div>
             </div>
@@ -132,10 +133,10 @@
                     <img src="{{ asset("myFiles/images/visa-passeport.png") }}" alt="icon">
                 </div>
                 <div class="col mt-lg-4">
-                    <p class="lh-2 h4">
+                    <p class="lh-2 h4 c-white">
                         Le projet VISAPASSEPORT va plus loin que le « e-Visa » mis en place par la DGM (Direction Générale de Migration) :
                     </p>
-                    <ul>
+                    <ul class="text-black">
                         <li class="my-2 lh-2">Il améliore le système de visa électronique actuel (e-Visa)</li>
                         <li class="my-2 lh-2">
                             Il met en place le système de dématérialisation et d’automatisation de la procédure d’obtention du passeport par les congolais vivant en RDC et de la diaspora (e-Passeport)
@@ -271,7 +272,7 @@
                 <div class="col-lg-6">
                     <div class="common-heading text-l">
                         {{--<span>Who We Are</span>--}}
-                        <h2 class="mb20 wow fadeInUp" data-wow-delay="0.2s">Pourquoi améliorer le e-Visa actuel ?</h2>
+                        <h2 class="mb20 wow fadeInUp c-highligh" data-wow-delay="0.2s">Pourquoi améliorer le e-Visa actuel ?</h2>
                         <p class="wow fadeInUp text-black"  data-wow-delay="0.4s">
                             La demande de visa peut être compliquée et chronophage pour les voyageurs souvent pressés. Pour demander un visa dans les ambassades, vous passez souvent de fâcheux moments dans les longues files d’attente. Parfois même, on vous demande de revenir un autre jour.
                         </p>
@@ -343,7 +344,7 @@
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/bootstrap.png" width="56" alt="Bootstrap logo">--}}
                                 <img class="d-block mb-3" style="height: 60px;" src="{{ asset("myFiles/images/e-visa-responsive.png") }}" width="70" alt="Multilangue">
-                                <h3 class="h6">Multi-plateforme</h3>
+                                <h3 class="h6 c-highligh">Multi-plateforme</h3>
                                 <p class="fs-sm mb-0">
                                     PC, Tablette, Smartphone, Smartwatch.
                                 </p>
@@ -353,7 +354,7 @@
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/html-code.png" width="56" alt="code logo">--}}
                                 <img class="d-block mb-3 rounded" style="height: 60px;" src="{{ asset("myFiles/images/multi-langues.png") }}" width="70" alt="Bootstrap logo">
-                                <h3 class="h6">Multilingue</h3>
+                                <h3 class="h6 c-highligh">Multilingue</h3>
                                 <p class="fs-sm mb-0">
                                     Toutes les grandes langues du monde sont représentée, pour améliorer l’accessibilité par les étrangers.
                                 </p>
@@ -363,7 +364,7 @@
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/components.png" width="56" alt="Components icon">--}}
                                 <img class="d-block mb-3" style="height: 60px;" src="{{ asset("myFiles/images/checkout.png") }}" width="70" height="50" alt="Paiement multi-canal">
-                                <h3 class="h6">Paiement multi-canal</h3>
+                                <h3 class="h6 c-highligh">Paiement multi-canal</h3>
                                 <p class="fs-sm mb-0"> Cartes bancaires (débit/crédit), portefeuilles virtuelles (PayPal,…) , mobile money (M-Pesa, Orange money…).</p>
                             </div>
                         </div>
@@ -455,33 +456,34 @@
                         </div>
 
                         <div class="industry-workfors">
-                            <img src="templateFiles/niwax/images/icons/video-tutorials.svg" alt="img">
-                            <h6>Paypal</h6>
+                            {{--<img src="templateFiles/niwax/images/icons/video-tutorials.svg" alt="img">--}}
+                            <img src="{{ asset("myFiles/images/payment-methods/american-express.png") }}" alt="img">
+                            <h6>American Express</h6>
                         </div>
 
                         <div class="industry-workfors">
                             <img src="templateFiles/niwax/images/icons/taxi.svg" alt="img">
-                            <h6>Transport</h6>
+                            <h6>Mipesa</h6>
                         </div>
 
                         <div class="industry-workfors">
                             <img src="templateFiles/niwax/images/icons/event.svg" alt="img">
-                            <h6>Event</h6>
+                            <h6>Tigo Pesa</h6>
                         </div>
 
                         <div class="industry-workfors">
                             <img src="templateFiles/niwax/images/icons/smartphone.svg" alt="img">
-                            <h6>eCommerce</h6>
+                            <h6>Vodacom</h6>
                         </div>
 
                         <div class="industry-workfors">
                             <img src="templateFiles/niwax/images/icons/joystick.svg" alt="img">
-                            <h6>Game</h6>
+                            <h6>Mobile Money</h6>
                         </div>
 
                         <div class="industry-workfors">
                             <img src="templateFiles/niwax/images/icons/healthcare.svg" alt="img">
-                            <h6>Healthcare</h6>
+                            <h6>Arteil Money</h6>
                         </div>
 
                         <div class="industry-workfors">
