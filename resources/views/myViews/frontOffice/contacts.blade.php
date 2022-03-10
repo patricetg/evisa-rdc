@@ -70,7 +70,25 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-5 v-center">
+                <div class="col-lg-5 offset-lg-1 v-center">
+
+                    <h4 class="text-black text-center">Contacter le coordinateur de VISApasseport : CHRISTIAN MASITU</h4>
+
+                    <img src="{{ asset("myFiles/images/christian.PNG") }}" class="img-fluid" title="CHRISTIAN MASITU" alt="CHRISTIAN MASITU">
+
+                    <p class="text-dark text-center lh-2">
+                        Congolais résident au Maroc. Ingénieur d’Etat et Co-fondateur de PLANNINGCLIENT
+                    </p>
+
+                    <p class="text-center lh-2">
+                        <i class="fas fa-envelope fa-2x"></i> <a class="text-dark" href="mailto:cal01.application@gmail.com">cal01.application@gmail.com</a>
+                    </p>
+
+                    <p class="text-center lh-2">
+                        <i class="fab fa-twitter fa-2x c-secondary"></i> <a class="text-dark" href="skype:christian_masit?call">@christian_masit</a>
+                    </p>
+
+                    {{--
                     <div class="contact-details">
                         <div class="contact-card wow fadeIn" data-wow-delay=".2s">
                             <div class="info-card v-center">
@@ -100,6 +118,8 @@
                             </div>
                         </div>
                     </div>
+                    --}}
+
                 </div>
             </div>
         </div>

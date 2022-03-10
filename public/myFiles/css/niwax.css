@@ -26,8 +26,8 @@ p {
     background: -moz-linear-gradient(left, #0472A2 0%, #0472A2 100%);
     background: -webkit-linear-gradient(left, #0472A2 0%,#0472A2 100%);
     background: linear-gradient(to right, #0472A2 0%,#0472A2 100%);
-    -webkit-box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
-    box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
+    -webkit-box-shadow: unset; /*0 10px 15px 0px rgb(175 0 87 / 20%);*/
+    box-shadow: unset; /*0 10px 15px 0px rgb(175 0 87 / 20%);*/
 
     color : var(--yellow);
 }

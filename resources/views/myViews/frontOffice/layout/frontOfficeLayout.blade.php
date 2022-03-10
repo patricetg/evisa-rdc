@@ -67,7 +67,7 @@
                             <li><a href="{{ route("frontOfficeEVisaPage") }}" class="menu-links">E-visa</a></li>
                             <li><a href="{{ route("frontOfficeEPasseportPage") }}" class="menu-links">E-passeport</a></li>
                             <li><a href="{{ route("frontOfficeEquipePage") }}" class="menu-links">Notre équipe</a></li>
-                            <li><a href="{{ route("frontOfficeContactsPage") }}" class="menu-links">Contacts</a></li>
+                            <li><a href="{{ route("frontOfficeContactsPage") }}" class="menu-links">Contact</a></li>
                             {{--
                             <li><a href="#price" class="menu-links">Price</a></li>
                             <li><a href="#price" class="menu-links">Contact</a></li>
@@ -518,7 +518,17 @@
                         <div class="footerdez-a">
                             {{--<h2>WE WOULD LOVE TO HEAR FROM YOU.</h2>--}}
                             <img src="{{ asset("myFiles/images/visa-passeport2.png") }}" class="img-fluid" alt="">
-                            <p class="mt10">Une dématérialisation du visa et de la procédure d'obtention du passeport.</p>
+                            <p class="mt10">
+                                Démartérialiser la procédure d'obtention du visa et du passeport Congolais
+                            </p>
+                            <div class="mt30">
+                                <p>
+                                    <span class="text-white">PLANNINGCLIENT</span> is incorporated in <span class="text-white">London</span>. <br/>
+                                    Company Number : <span class="text-white">13070015</span> <br/>
+                                    VAT Number : <span class="text-white">8796729102</span> <br/>
+                                    Address : <span class="text-white"> Frederick Street, London, WC1X 0ND</span>
+                                </p>
+                            </div>
                             {{--<div class="contactinfo mt30">
                                 <a href="mailto:contact@domainame.com">contact@domainame.com <span>→</span></a>
                                 <a href="tel:+91123456790">(91) 123 4567 7890 <span>→</span></a>
@@ -548,11 +558,15 @@
                                 </ul>
                             </div>
                             <div class="col-lg-4S col-sm-5 pt40">
-                                <h5>Contacts</h5>
+                                <h5>Contact</h5>
+                                <p CLASS="mb-4">
+                                    <span class="text-white">CHRISTIAN MASITU</span> <br/>
+                                    Coordinateur de VISAPASSEPORT
+                                </p>
                                 <ul class="footer-address-list link-hover">
                                     <li>
                                         <i class="fas fa-phone-alt"></i>
-                                        <a href="tel:+10000000000">(+91) 0000 000 000</a>
+                                        <a href="tel:+2120618147446">(00212) 0618147446</a>
                                     </li>
                                     <li>
                                         <i class="fas fa-envelope"></i>
@@ -577,7 +591,7 @@
                             </div>--}}
                             <div class="col-lg-6 pt60">
                                 <div class="footer-copyrights-">
-                                    <p>© 2022. Créé par <a href="https://www.honametech.com/" target="_blank">Honame Tech</a></p>
+                                    <p>© 2022. <span class="text-white">VISApasseport RDC</span> {{--Créé par <a href="https://www.honametech.com/" target="_blank">Honame Tech</a>--}}</p>
                                 </div>
                             </div>
                         </div>

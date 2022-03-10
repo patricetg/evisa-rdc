@@ -6,6 +6,7 @@
 
 @section("firstLevelLayoutBodyContent")
 
+{{--
 
     <!--Start Hero-->
     <section class="hero-section niwax-lp2" id="home">
@@ -25,12 +26,16 @@
                                 <li># Pourquoi le E-visa ?</li>
                                 <li># Pourquoi le E-passeport ?</li>
                                 <li># Comment ça fonctionne ?</li>
-                                {{--<li># User-Friendly Interface</li>
-                                <li># 400 Happy Clients</li>--}}
+                                --}}
+{{--<li># User-Friendly Interface</li>
+                                <li># 400 Happy Clients</li>--}}{{--
+
                             </ul>
                             <!-- btn set -->
                             <div class="niwaxbtnvideo mt40 wow fadeIn" data-wow-delay="1s">
-                                {{--<a href="#" class="niwax-btn2">GET STARTED<i class="fas fa-chevron-right fa-icon"></i></a>--}}
+                                --}}
+{{--<a href="#" class="niwax-btn2">GET STARTED<i class="fas fa-chevron-right fa-icon"></i></a>--}}{{--
+
                                 <div class="video-btn  d-flex v-center gap10">
                                     <div class="video-intro-ppx"><a class="video-link play-video" href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0"><span class="triangle-play"></span></a></div>
                                     <div class="title-hero">
@@ -44,7 +49,9 @@
                     <div class="col-lg-5 v-center">
                         <div class="niwax-lpimg-2">
                             <img src="{{ asset("myFiles/images/home-header.png") }}" width="500" alt="img">
-                            {{--<img src="templateFiles/niwax/images/hero/payment.svg"  alt="img">--}}
+                            --}}
+{{--<img src="templateFiles/niwax/images/hero/payment.svg"  alt="img">--}}{{--
+
                         </div>
                     </div>
                 </div>
@@ -53,6 +60,7 @@
     </section>
     <!--End Hero-->
 
+--}}
 
 
     <!--Start About-->
@@ -66,11 +74,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="common-heading text-l">
-                        <span>La RDC se met au pas dans le numérique</span>
-                        <h2>Pourquoi le E-passeport et le E-visa ?</h2>
-                        <p class="lh-2">
-                            <q>Faire du Numérique congolais un levier d’intégration, de bonne gouvernance, de croissance économique et de progrès social Félix.</q>, Président Antoine TSHISEKEDI TSHILOMBO.
+                    <div class="common-headingS text-l">
+                        <span class="text-black h5 text-bold">Président Antoine TSHISEKEDI TSHILOMBO</span>
+                        {{--<h2>Pourquoi le E-passeport et le E-visa ?</h2>--}}
+                        <p class="lh-2 pt-3 c-secondary text-bold" style="font-size : x-large;">
+                            <q>Faire du Numérique congolais un levier d’intégration, de bonne gouvernance, de croissance économique et de progrès social Félix.</q>{{--, Président Antoine TSHISEKEDI TSHILOMBO.--}}
                         </p>
 {{--
 
@@ -86,19 +94,25 @@
                         </div>
 --}}
 
-                                <a href="#" class="btn-main bg-btn lnk mt30 text-center">
-                                    <i class="fa fa-file-download fa-2x mr-1"></i>
-                                    Télécharger
-                                    {{--<i class="fa-solid fa-file-arrow-down"></i>--}}
-                                    {{--<i class="fas fa-chevron-right fa-icon"></i>--}}
-                                    <span class="circle"></span>
+                        <div class="video-btn  d-flex v-center gap10 mx-auto pt-2">
+                            <div class="video-intro-ppx">
+                                <a class="video-link play-video" href="{{ asset("myFiles/videos/president-antoine.mp4") }}">
+                                    <span class="triangle-play"></span>
                                 </a>
+                                {{--<a class="video-link play-video" href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0">
+                                    <span class="triangle-play"></span>
+                                </a>--}}
+                            </div>
+                            <div class="title-hero">
+                                <p>Regarder la vidéo</p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
             </div>
 
-            <div class="row my-5">
+            <div class="row mt-5">
                 <div class="col text-center">
                     <p>
                         A l’ouverture de l’Atelier de validation du PNN (PROGRAMME NATIONAL DU NUMÉRIQUE), le Chef de l’État a inscrit le Numérique dans la déclinaison de son Programme quinquennal.
@@ -107,6 +121,45 @@
                         Aussi, le Chef de l’Etat a annoncé une série d’actions prioritaires consistant entre autre à Mettre en place d’ici peu le système de visa électronique d’entrée en RD Congo (E-Visa).
                     </p>
                 </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <p class="text-right">
+                        <a href="{{ asset("myFiles/pdf/president-antoine.pdf") }}" class="btn-main bg-btn lnk mt30">
+                            <i class="fa fa-file-download fa-2x mr-1"></i>
+                            Télécharger
+                            <i class="fa-solid fa-file-arrow-down"></i>
+
+                            <i class="fas fa-chevron-right fa-icon"></i>
+
+                            <span class="circle"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <img src="{{ asset("myFiles/images/pnn.png") }}" class="img-thumbnail" alt="">
+                    </p>
+                </div>
+                {{--
+                <div class="col text-center">
+                    <p class="text-center d-inline-block">
+
+                        <a href="#" class="btn-main bg-btn lnk mt30">
+                            <i class="fa fa-file-download fa-2x mr-1"></i>
+                            Télécharger
+                            <i class="fa-solid fa-file-arrow-down"></i>
+
+                            <i class="fas fa-chevron-right fa-icon"></i>
+
+                            <span class="circle"></span>
+                        </a>
+                    </p>
+                    <p class="d-inline-block mr-2">
+                        <img src="{{ asset("myFiles/images/pnn.png") }}"  alt="">
+                    </p>
+                </div>
+                --}}
             </div>
         </div>
     </section>
@@ -129,17 +182,17 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-12 mt30S wow fadeInLeft niwax" data-wow-delay=".2s"  data-rellax-speed=".5" data-rellax-percentage=".5">
+               {{-- <div class="col-lg-4 col-sm-12 mt30S wow fadeInLeft niwax" data-wow-delay=".2s"  data-rellax-speed=".5" data-rellax-percentage=".5">
                     <img src="{{ asset("myFiles/images/visa-passeport.png") }}" alt="icon">
-                </div>
-                <div class="col mt-lg-4">
+                </div>--}}
+                <div class="col mt-lg-4 text-center">
                     <p class="lh-2 h4 c-white">
                         Le projet VISAPASSEPORT va plus loin que le « e-Visa » mis en place par la DGM (Direction Générale de Migration) :
                     </p>
-                    <ul class="text-black">
-                        <li class="my-2 lh-2">Il améliore le système de visa électronique actuel (e-Visa)</li>
+                    <ul class="text-black h5">
+                        <li class="my-2 lh-2">Numériser et uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques</li>
                         <li class="my-2 lh-2">
-                            Il met en place le système de dématérialisation et d’automatisation de la procédure d’obtention du passeport par les congolais vivant en RDC et de la diaspora (e-Passeport)
+                            Mettre en place le système de dématérialisation et d’automatisation de la procédure d’obtention du passeport par les congolais vivant en RDC et de la diaspora (e-Passeport)
                         </li>
                     </ul>
                 </div>
@@ -208,20 +261,21 @@
                     <div class="common-heading text-l">
                         {{--<span>Who We Are</span>--}}
                         <h2 class="mb20">Pourquoi mettre en place le e-Passeport ?</h2>
-                        <p>Retracer la destination des recettes des passeports délivrés par le ministère des Affaires étrangères et les ambassades de la RDC dans le monde. L’objectif est de créer un circuit sécurisé et informatisé dans ces représentations diplomatiques, pour assurer une liaison avec Kinshasa et prévenir le détournement de fonds.</p>
+                        <p class="lh-3">Retracer la destination des recettes des passeports délivrés par le ministère des Affaires étrangères et les ambassades de la RDC dans le monde. L’objectif est de créer un circuit sécurisé et informatisé dans ces représentations diplomatiques, pour assurer une liaison avec Kinshasa et prévenir le détournement de fonds.</p>
 
                     </div>
                     <div >
-                        <p style="text-align: right;">
-                            <a href="https://urlz.fr/hqSD" target="_blank" class="btn-main bg-btn lnk mt30">Lire plus <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                        <p class="text-center">
+                            <a href="{{ route("frontOfficeEPasseportPage") }}" title="En savoir plus sur le e-Passeport" class="btn-main bg-btn lnk mt30">Lire plus <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="img-design h-scl-">
+                    <img src="{{ asset("myFiles/images/passeport-2.PNG") }}" class="img-fluid img-media" alt="">
+                    {{--<div class="img-design h-scl-">
                         <div class="imgac "> <img src="templateFiles/niwax/images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base"></div>
                         <div class="imgac h-scl-base"><img src="templateFiles/niwax/images/hero/creative-ag2b.jpg" alt="creative agnecy html template" class="ag-dg2 img-fluid "></div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
 
@@ -229,6 +283,9 @@
                 <div class="col col-lg-8S col-sm-8S mt60 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="isotope_item hover-scale">
                         <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
+                            <h4>
+                                <a href="https://urlz.fr/hqSD" target="_blank">IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC</a>
+                            </h4>
                             <a href="#"><img src="{{ asset("myFiles/images/visite-ambassades.png") }}" alt="image" class="img-fluid" /> </a>
                             {{--<a href="#"><img src="templateFiles/niwax/images/portfolio/image-d.jpg" alt="image" class="img-fluid" /> </a>--}}
                         </div>
@@ -238,7 +295,7 @@
                         --}}
 
                         <div class="item-info">
-                            <h4>IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC</h4>
+                            {{--<h4>IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC</h4>--}}
                             <p> Cela fait suite à l’écho des malversations financières autour des activités des ambassades de la RDC dans le monde. Plusieurs diplomates congolais accrédités à l’étranger s’illustreraient à des combines dans la vente des passeports (ex.: Augmentation du prix de 100$ à 200$, parfois 300$).</p>
                             <p>
                                 Le prix du passeport est pourtant fixé à 99 USD par un arrêté interministériel signé le 10 novembre 2020 par la ministre des Affaires étrangères, MARIE TUMBA NZENZA, et le ministre des Finances, SELE YALAGHULI.
@@ -269,49 +326,37 @@
     <section class="why-choos-lg bg-gradient1 pad-tb deep-dark">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-7 pr-4">
                     <div class="common-heading text-l">
                         {{--<span>Who We Are</span>--}}
                         <h2 class="mb20 wow fadeInUp c-highligh" data-wow-delay="0.2s">Pourquoi améliorer le e-Visa actuel ?</h2>
-                        <p class="wow fadeInUp text-black"  data-wow-delay="0.4s">
+                        <p class="wow fadeInUp text-black lh-2"  data-wow-delay="0.4s">
                             La demande de visa peut être compliquée et chronophage pour les voyageurs souvent pressés. Pour demander un visa dans les ambassades, vous passez souvent de fâcheux moments dans les longues files d’attente. Parfois même, on vous demande de revenir un autre jour.
                         </p>
-                        <p class=" wow fadeInUp text-black" data-wow-delay="0.6s">
+                        <p class=" wow fadeInUp text-black lh-2" data-wow-delay="0.6s">
                             Afin d’alléger les démarches, de nombreux pays ont adopté le système de visa électronique. Il s’agit de visas à demander sur Internet, , nul besoin de déplacement. Le paiement se réalise également en ligne. Le délai de traitement est de 72 heures dès la réception de la demande. Le demandeur reçoit son visa par courrier électronique.
                         </p>
 
                     </div>
-                   {{-- <div >
-                        <p style="text-align: right;">
-                            <a href="https://urlz.fr/hqSD" target="_blank" class="btn-main bg-btn lnk mt30">Lire plus <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                    <div >
+                        <p class="text-center">
+                            <a href="{{ route("frontOfficeEVisaPage") }}" title="En savoir plus sur le e-Visa" class="btn-main bg-btn lnk mt30">Lire plus <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                         </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-right">
+                    <img src="{{ asset("myFiles/images/e-visa-example.PNG") }}" class="img-fluid img-media" alt="">
+                    {{--<div class="img-design h-scl-">
+                        <div class="imgac "> <img src="templateFiles/niwax/images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base"></div>
+                        <div class="imgac h-scl-base"><img src="templateFiles/niwax/images/hero/creative-ag2b.jpg" alt="creative agnecy html template" class="ag-dg2 img-fluid "></div>
                     </div>--}}
                 </div>
-                <div class="col-lg-6">
+                {{--<div class="col-lg-6">
                     <div class="img-design h-scl- wow fadeInUp" data-wow-delay="0.1s">
                         <div class="imgac "> <img src="templateFiles/niwax/images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base"></div>
                         <div class="imgac h-scl-base"><img src="templateFiles/niwax/images/hero/creative-ag2b.jpg" alt="creative agnecy html template" class="ag-dg2 img-fluid "></div>
                     </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col col-lg-8S col-sm-8S mt60 wow fadeInUp" data-wow-delay="0.2s">
-                    <p class="text-center">
-                        La RDC a déjà mise en place le site web e-visa en ligne : <a
-                                href="https://www.evisa.gouv.cd" target="_blank">www.evisa.gouv.cd</a>.
-                    </p>
-                    {{--<p class="text-center">Ses objectifs sont clairs et précis : </p>
-                    <ul>
-                        <li class="my-2 lh-2">
-                            Uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques: la circulaire N°003/CAB/ME/MINBUDGET 2016 du 18 juin 2016 recommande l’uniformisation des visas dans toutes les missions diplomatiques. Mais entre la DGM et les missions diplomatiques, c’est le régime du chacun pour soi en matière de délivrance des visas.
-                        </li>
-                        <li class="my-2 lh-2">
-                            Uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques: la circulaire N°003/CAB/ME/MINBUDGET 2016 du 18 juin 2016 recommande l’uniformisation des visas dans toutes les missions diplomatiques. Mais entre la DGM et les missions diplomatiques, c’est le régime du chacun pour soi en matière de délivrance des visas.
-                        </li>
-                    </ul>--}}
-                </div>
-
+                </div>--}}
             </div>
 
         </div>
@@ -322,6 +367,7 @@
     <!--Start Portfolio-->
     <section class="dg-portfolio-section pb80 pt80">
         <div class="container">
+            {{--
             <div class="row justify-content-center ">
                 <div class="col-lg-8">
                     <div class="common-heading-2">
@@ -330,11 +376,17 @@
                     </div>
                 </div>
             </div>
+            --}}
             <div class="row">
 
                 <div class="col-lg-4S col-12 mt60 wow fadeIn" data-wow-delay=".2s">
                     <h4>Uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques</h4>
                     <p>La circulaire N°003/CAB/ME/MINBUDGET 2016 du 18 juin 2016 recommande l’uniformisation des visas dans toutes les missions diplomatiques. Mais entre la DGM et les missions diplomatiques, c’est le régime du chacun pour soi en matière de délivrance des visas.</p>
+                    <p class="text-center mt-2">
+                        La RDC a déjà mise en place le site web e-visa en ligne : <a href="https://www.evisa.gouv.cd" target="_blank" class="text-black">www.evisa.gouv.cd</a>.
+                    </p>
+
+
                 </div>
                 <div class="col-lg-4S col-12 mt60 wow fadeIn" data-wow-delay=".5s">
                     <h4>Rendre le processus plus accessible et plus efficace</h4>
@@ -343,8 +395,8 @@
                         <div class="col">
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/bootstrap.png" width="56" alt="Bootstrap logo">--}}
-                                <img class="d-block mb-3" style="height: 60px;" src="{{ asset("myFiles/images/e-visa-responsive.png") }}" width="70" alt="Multilangue">
-                                <h3 class="h6 c-highligh">Multi-plateforme</h3>
+                                <img class="d-block mb-3" src="{{ asset("myFiles/images/e-visa-responsive.png") }}" width="70" alt="Multilangue">
+                                <h3 class="h6 c-highligh text-bold">Multi-plateforme</h3>
                                 <p class="fs-sm mb-0">
                                     PC, Tablette, Smartphone, Smartwatch.
                                 </p>
@@ -353,8 +405,8 @@
                         <div class="col">
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/html-code.png" width="56" alt="code logo">--}}
-                                <img class="d-block mb-3 rounded" style="height: 60px;" src="{{ asset("myFiles/images/multi-langues.png") }}" width="70" alt="Bootstrap logo">
-                                <h3 class="h6 c-highligh">Multilingue</h3>
+                                <img class="d-block mb-3 rounded" src="{{ asset("myFiles/images/multi-langues-2.PNG") }}" width="70" alt="Bootstrap logo">
+                                <h3 class="h6 c-highligh text-bold">Multilingue</h3>
                                 <p class="fs-sm mb-0">
                                     Toutes les grandes langues du monde sont représentée, pour améliorer l’accessibilité par les étrangers.
                                 </p>
@@ -363,8 +415,8 @@
                         <div class="col">
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/components.png" width="56" alt="Components icon">--}}
-                                <img class="d-block mb-3" style="height: 60px;" src="{{ asset("myFiles/images/checkout.png") }}" width="70" height="50" alt="Paiement multi-canal">
-                                <h3 class="h6 c-highligh">Paiement multi-canal</h3>
+                                <img class="d-block mb-3" src="{{ asset("myFiles/images/carte-bancaire.PNG") }}" width="70" height="50" alt="Paiement multi-canal">
+                                <h3 class="h6 c-highligh text-bold">Paiement multi-canal</h3>
                                 <p class="fs-sm mb-0"> Cartes bancaires (débit/crédit), portefeuilles virtuelles (PayPal,…) , mobile money (M-Pesa, Orange money…).</p>
                             </div>
                         </div>
@@ -434,7 +486,11 @@
         <div class="container">
             <div class="row v-center">
 
+                <h3 class="text-center mb-3">Méthodes de paiement disponibles lors de la demande d'un e-Passeport</h3>
 
+                @include("myViews.frontOffice.include.paymentMethods")
+
+{{--
                 <div class="companytime nxlp-b col-lg-3">
                     <p>15 <span>Modes de paiement</span></p>
                 </div>
@@ -445,18 +501,18 @@
 
                         <div class="industry-workfors">
                             <img src="{{ asset("myFiles/images/payment-methods/visa.png") }}" alt="img">
-                            {{--<img src="templateFiles/niwax/images/icons/house.svg" alt="img">--}}
+                            --}}{{--<img src="templateFiles/niwax/images/icons/house.svg" alt="img">--}}{{--
                             <h6>Visa</h6>
                         </div>
 
                         <div class="industry-workfors">
                             <img src="{{ asset("myFiles/images/payment-methods/master-card.png") }}" alt="img">
-                           {{-- <img src="templateFiles/niwax/images/icons/travel-case.svg" alt="img">--}}
+                           --}}{{-- <img src="templateFiles/niwax/images/icons/travel-case.svg" alt="img">--}}{{--
                             <h6>Master Card</h6>
                         </div>
 
                         <div class="industry-workfors">
-                            {{--<img src="templateFiles/niwax/images/icons/video-tutorials.svg" alt="img">--}}
+                            --}}{{--<img src="templateFiles/niwax/images/icons/video-tutorials.svg" alt="img">--}}{{--
                             <img src="{{ asset("myFiles/images/payment-methods/american-express.png") }}" alt="img">
                             <h6>American Express</h6>
                         </div>
@@ -508,6 +564,7 @@
 
                     </div>
                 </div>
+                --}}
             </div>
         </div>
     </div>
@@ -522,7 +579,7 @@
                     <a href="{{ route("frontOfficeEVisaPage") }}" class="btn-main bg-btn lnk mt30">En savoir plus sur le e-Visa <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                 </div>
                 <div class="col-md-6 text-center">
-                    <a href="#" class="btn-main bg-btn lnk mt30">En savoir plus sur le  e-Passeport <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                    <a href="{{ route("frontOfficeEPasseportPage") }}" class="btn-main bg-btn lnk mt30">En savoir plus sur le  e-Passeport <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                 </div>
             </div>
         </div>
