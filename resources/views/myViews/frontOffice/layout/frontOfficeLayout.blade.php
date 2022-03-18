@@ -5,14 +5,14 @@
         <title>
             {{ env("APP_NAME") }} - @yield("page")
         </title>
-        <meta name="description" content="Creative Agency, Marketing Agency Template">
-        <meta name="keywords" content="Creative Agency, Marketing Agency">
-        <meta name="author" content="rajesh-doot">
+        <meta  name="description" content="{{ env("APP_DESC") }}" />
+        <meta name="keywords" content="{{ env("APP_KEYWORDS") }}">
+        <meta  name="author" content="{{ env("APP_AUTHOR") }}" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="theme-color" content="#fff">
         <!--website-favicon-->
-        <link rel="icon" href="{{ asset("myFiles/images/logo/logo.png") }}">
+        <link rel="icon" href="{{ asset("myFiles/images/logo/logo-2.png") }}">
         <!--plugin-css-->
         <link href="{{ asset("templateFiles/niwax/css/bootstrap.min.css") }}" rel="stylesheet">
         <link href="{{ asset("templateFiles/niwax/css/plugin.min.css") }}" rel="stylesheet">
@@ -36,8 +36,8 @@
         <!--Start Preloader -->
         <div class="onloadpage" id="page_loader">
             <div class="pre-content">
-                <div class="logo-pre"><img src="{{ asset("myFiles/images/logo/logo.png") }}" alt="Logo" class="img-fluid" /></div>
-                <div class="pre-text- text-radius text-light text-animation bg-b"> {{ env("APP_NAME") }} - Le e-visa à la porté de tous au Congo...</div>
+                <div class="logo-pre"><img src="{{ asset("myFiles/images/logo/logo-2.png") }}" alt="Logo" class="img-fluid" /></div>
+                <div class="pre-text- text-radius text-light text-animation bg-b"> {{ env("APP_NAME") }} </div>
             </div>
         </div>
         <!--End Preloader -->
@@ -63,7 +63,7 @@
                     --}}
                     <div class="custom-nav" role="navigation">
                         <ul class="nav-list onepge">
-                            <li><a href="{{route("frontOfficeHomePage")}}#home" class="menu-links">Accueil</a></li>
+                            <li><a href="{{route("frontOfficeHomePage")}}" class="menu-links">Accueil</a></li>
                             <li><a href="{{ route("frontOfficeEVisaPage") }}" class="menu-links">E-visa</a></li>
                             <li><a href="{{ route("frontOfficeEPasseportPage") }}" class="menu-links">E-passeport</a></li>
                             <li><a href="{{ route("frontOfficeEquipePage") }}" class="menu-links">Notre équipe</a></li>
@@ -77,20 +77,28 @@
                     </div>
                     <div class="mobile-menu2">
                         <ul class="mob-nav2">
-                            <li><a class="btn-round- trngl btn-br bg-btn btshad-b1"  data-bs-toggle="offcanvas" href="#offcanvasExample"><i class="fas fa-qrcode"></i></a></li>
+                            {{--<li><a class="btn-round- trngl btn-br bg-btn btshad-b1"  data-bs-toggle="offcanvas" href="#offcanvasExample"><i class="fas fa-qrcode"></i></a></li>--}}
                             <li class="navm-"> <a class="toggle" href="#"><span></span></a></li>
                         </ul>
                     </div>
                 </div>
+
+
+
                 <!--Mobile Menu-->
                 <nav id="main-nav">
                     <ul class="first-nav">
-                        <li><a href="#home" class="menu-links">Home</a></li>
+                        <li><a href="{{route("frontOfficeHomePage")}}" class="menu-links">Accueil</a></li>
+                        <li><a href="{{ route("frontOfficeEVisaPage") }}" class="menu-links">E-visa</a></li>
+                        <li><a href="{{ route("frontOfficeEPasseportPage") }}" class="menu-links">E-passeport</a></li>
+                        <li><a href="{{ route("frontOfficeEquipePage") }}" class="menu-links">Notre équipe</a></li>
+                        <li><a href="{{ route("frontOfficeContactsPage") }}" class="menu-links">Contact</a></li>
+                        {{--<li><a href="#home" class="menu-links">Home</a></li>
                         <li><a href="#services" class="menu-links">Services</a></li>
                         <li><a href="#work" class="menu-links">Work</a></li>
-                        <li><a href="#price" class="menu-links">Price</a></li>
+                        <li><a href="#price" class="menu-links">Price</a></li>--}}
                     </ul>
-                    <ul class="bottom-nav">
+                    {{--<ul class="bottom-nav">
                         <li class="prb">
                             <a href="tel:+11111111111">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
@@ -117,7 +125,7 @@
                                 </svg>
                             </a>
                         </li>
-                    </ul>
+                    </ul>--}}
                 </nav>
             </div>
         </header>
@@ -518,11 +526,11 @@
                         <div class="footerdez-a">
                             {{--<h2>WE WOULD LOVE TO HEAR FROM YOU.</h2>--}}
                             <img src="{{ asset("myFiles/images/visa-passeport2.png") }}" class="img-fluid" alt="">
-                            <p class="mt10">
+                            <p class="mt10 c-tertiary">
                                 Démartérialiser la procédure d'obtention du visa et du passeport Congolais
                             </p>
                             <div class="mt30">
-                                <p>
+                                <p class="c-tertiary">
                                     <span class="text-white">PLANNINGCLIENT</span> is incorporated in <span class="text-white">London</span>. <br/>
                                     Company Number : <span class="text-white">13070015</span> <br/>
                                     VAT Number : <span class="text-white">8796729102</span> <br/>
@@ -547,19 +555,39 @@
                             </div>
                             --}}
                             <div class="col-lg-4S col-sm-7 pt40">
+                                {{--<img class="img-fluid" src="{{ asset("myFiles/images/planning-client.png") }}" alt="">--}}
                                 <h5>Accès rapide</h5>
                                 <ul class="footer-address-list link-hover">
-                                    <li><a href="#">Qu'est-ce que le e-Visa et le e-Passeport ?</a></li>
-                                    <li><a href="#">Pourquoi le e-Visa et le e-Passeport ?</a></li>
+                                    <li>
+                                        <a href="{{ route("frontOfficeEVisaPage") }}#how-to-obtain-evisa">
+                                            Comment obtenir le e-Visa ?
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route("frontOfficeEVisaPage") }}#pay-evisa">
+                                            Comment payer le e-Visa ?
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route("frontOfficeEPasseportPage") }}#how-to-have-epassport">
+                                            Comment obtenir le e-Passeport ?
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  href="{{ route("frontOfficeEPasseportPage") }}#pay-epasseport">
+                                            Comment payer le e-Passeport ?
+                                        </a>
+                                    </li>
+                                    {{--<li><a href="#">Pourquoi le e-Visa et le e-Passeport ?</a></li>
                                     <li><a href="#">Comment obtenir son e-Visa ?</a></li>
                                     <li><a href="#">Quelle est la procédure du e-Passeport ?</a></li>
                                     <li><a href="#">Notre équipe</a></li>
-                                    <li><a href="#">Nous contacter</a></li>
+                                    <li><a href="#">Nous contacter</a></li>--}}
                                 </ul>
                             </div>
                             <div class="col-lg-4S col-sm-5 pt40">
                                 <h5>Contact</h5>
-                                <p CLASS="mb-4">
+                                <p CLASS="mb-4 c-tertiary">
                                     <span class="text-white">CHRISTIAN MASITU</span> <br/>
                                     Coordinateur de VISAPASSEPORT
                                 </p>
@@ -591,7 +619,7 @@
                             </div>--}}
                             <div class="col-lg-6 pt60">
                                 <div class="footer-copyrights-">
-                                    <p>© 2022. <span class="text-white">VISApasseport RDC</span> {{--Créé par <a href="https://www.honametech.com/" target="_blank">Honame Tech</a>--}}</p>
+                                    <p class="c-tertiary">© 2022. <span class="text-white">VISApasseport RDC</span> {{--Créé par <a href="https://www.honametech.com/" target="_blank">Honame Tech</a>--}}</p>
                                 </div>
                             </div>
                         </div>
@@ -607,8 +635,11 @@
             <div class="offcanvas-body p0">
                 <div class="companyinfodiv">
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    <a href="#"><img src="{{ asset("templateFiles/niwax/images/logo.png") }}" alt=""></a>
-                    <p class="companytitle"> {{ env("APP_NAME") }} - Le e-visa à la portée de tous...</p>
+                    <a href="#">
+                        <img src="{{ asset("myFiles/images/logo/logo_text.png") }}" alt="{{ env("APP_NAME") }}" title="{{ env("APP_NAME") }}">
+                       {{-- <img src="{{ asset("templateFiles/niwax/images/logo.png") }}" alt="">--}}
+                    </a>
+                    <p class="companytitle"> {{ env("APP_NAME") }} - Le e-visa à la portée de tous</p>
                 </div>
                 <div class="contactinfo-bar mt50">
                     <h4 class="contactitle">Contact Info</h4>

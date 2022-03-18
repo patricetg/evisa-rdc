@@ -64,7 +64,7 @@
 
 
     <!--Start About-->
-    <section class="about-agency pad-tb">
+    <section class="about-agency pad-tb mt-sm-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 v-center">
@@ -75,9 +75,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="common-headingS text-l">
-                        <span class="text-black h5 text-bold">Président Antoine TSHISEKEDI TSHILOMBO</span>
+                        {{--<span class="text-black h5 text-bold">Président Antoine TSHISEKEDI TSHILOMBO</span>--}}
+                        <h4 class="wow fadeIn text-bold text-center mt-3" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">Président Antoine TSHISEKEDI TSHILOMBO</h4>
                         {{--<h2>Pourquoi le E-passeport et le E-visa ?</h2>--}}
-                        <p class="lh-2 pt-3 c-secondary text-bold" style="font-size : x-large;">
+                        <p class="lh-3 pt-4 c-secondaryS text-left text-dark text-boldS ws-1" style="font-size : x-large;">
                             <q>Faire du Numérique congolais un levier d’intégration, de bonne gouvernance, de croissance économique et de progrès social Félix.</q>{{--, Président Antoine TSHISEKEDI TSHILOMBO.--}}
                         </p>
 {{--
@@ -94,17 +95,24 @@
                         </div>
 --}}
 
-                        <div class="video-btn  d-flex v-center gap10 mx-auto pt-2">
-                            <div class="video-intro-ppx">
-                                <a class="video-link play-video" href="{{ asset("myFiles/videos/president-antoine.mp4") }}">
+                        <div class="video-btn  d-flex v-center gap10 mx-auto pt-4">
+                            <div class="video-intro-ppx mx-autoS">
+                                {{--<a class="video-link play-video" href="{{ asset("myFiles/videos/president-antoine.mp4") }}">
                                     <span class="triangle-play"></span>
-                                </a>
+                                </a>--}}
                                 {{--<a class="video-link play-video" href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0">
                                     <span class="triangle-play"></span>
                                 </a>--}}
                             </div>
-                            <div class="title-hero">
-                                <p>Regarder la vidéo</p>
+                            <div class="title-hero mx-auto pt-4">
+                                <p >
+                                    <a class="video-link play-video" href="{{ asset("myFiles/videos/president-antoine.mp4") }}">
+                                        <span class="triangle-play"></span>
+                                    </a>
+                                    <span class="c-primary">
+                                    Regarder la vidéo
+                                    </span>
+                                </p>
                             </div>
                         </div>
 
@@ -112,19 +120,16 @@
                 </div>
             </div>
 
-            <div class="row mt-5">
+            <div class="row mt-3">
                 <div class="col text-center">
-                    <p>
+                    <p class="lh-2 my-4 text-bold h5 text-center">
                         A l’ouverture de l’Atelier de validation du PNN (PROGRAMME NATIONAL DU NUMÉRIQUE), le Chef de l’État a inscrit le Numérique dans la déclinaison de son Programme quinquennal.
                     </p>
-                    <p>
+                    <p class="lh-2 my-2 text-bold text-center">
                         Aussi, le Chef de l’Etat a annoncé une série d’actions prioritaires consistant entre autre à Mettre en place d’ici peu le système de visa électronique d’entrée en RD Congo (E-Visa).
                     </p>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-md-4">
-                    <p class="text-right">
+
+                    <p class="text-center mt-3">
                         <a href="{{ asset("myFiles/pdf/president-antoine.pdf") }}" class="btn-main bg-btn lnk mt30">
                             <i class="fa fa-file-download fa-2x mr-1"></i>
                             Télécharger
@@ -136,8 +141,23 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-md-6">
-                    <p>
+            </div>
+            <div class="row mb-5">
+                {{--<div class="col-md-4">
+                    <p class="text-right">
+                        <a href="{{ asset("myFiles/pdf/president-antoine.pdf") }}" class="btn-main bg-btn lnk mt30">
+                            <i class="fa fa-file-download fa-2x mr-1"></i>
+                            Télécharger
+                            <i class="fa-solid fa-file-arrow-down"></i>
+
+                            <i class="fas fa-chevron-right fa-icon"></i>
+
+                            <span class="circle"></span>
+                        </a>
+                    </p>
+                </div>--}}
+                <div class="col-md-6S col">
+                    <p class="text-center">
                         <img src="{{ asset("myFiles/images/pnn.png") }}" class="img-thumbnail" alt="">
                     </p>
                 </div>
@@ -170,13 +190,13 @@
 
 
     <!--Start Service-->
-    <section class="dg-service2 bg-gradient1 pad-tb" id="services">
+    <section class="dg-service2 bg-gradient6 pad-tb" id="services">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="common-heading text-center">
                         {{--<span class="text-effect-2">Our Best Services</span>--}}
-                        <h2 class="mb30 c-highligh">Le projet VISA-PASSEPORT</h2>
+                        <h2 class="mb30 c-whiteS c-primary text-bold">Le projet VISA-PASSEPORT</h2>
                     </div>
                 </div>
             </div>
@@ -186,11 +206,11 @@
                     <img src="{{ asset("myFiles/images/visa-passeport.png") }}" alt="icon">
                 </div>--}}
                 <div class="col mt-lg-4 text-center">
-                    <p class="lh-2 h4 c-white">
-                        Le projet VISAPASSEPORT va plus loin que le « e-Visa » mis en place par la DGM (Direction Générale de Migration) :
+                    <p class="lh-2 h4 c-whiteS text-bold text-black text-center">
+                        Le projet VISAPASSEPORT est la combinaison de "e-VISA"  et "e-Passeport". Son but est de :
                     </p>
-                    <ul class="text-black h5">
-                        <li class="my-2 lh-2">Numériser et uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques</li>
+                    <ul class="text-black h5 text-justify mt-4">
+                        <li class="my-2 lh-2">Numériser et uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques (e-VISA)</li>
                         <li class="my-2 lh-2">
                             Mettre en place le système de dématérialisation et d’automatisation de la procédure d’obtention du passeport par les congolais vivant en RDC et de la diaspora (e-Passeport)
                         </li>
@@ -271,7 +291,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="{{ asset("myFiles/images/passeport-2.PNG") }}" class="img-fluid img-media" alt="">
+                    <img src="{{ asset("myFiles/images/passeport-3.png") }}" class="img-fluid img-media" alt="">
                     {{--<div class="img-design h-scl-">
                         <div class="imgac "> <img src="templateFiles/niwax/images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base"></div>
                         <div class="imgac h-scl-base"><img src="templateFiles/niwax/images/hero/creative-ag2b.jpg" alt="creative agnecy html template" class="ag-dg2 img-fluid "></div>
@@ -279,41 +299,21 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col col-lg-8S col-sm-8S mt60 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="isotope_item hover-scale">
-                        <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                            <h4>
-                                <a href="https://urlz.fr/hqSD" target="_blank">IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC</a>
-                            </h4>
-                            <a href="#"><img src="{{ asset("myFiles/images/visite-ambassades.png") }}" alt="image" class="img-fluid" /> </a>
-                            {{--<a href="#"><img src="templateFiles/niwax/images/portfolio/image-d.jpg" alt="image" class="img-fluid" /> </a>--}}
-                        </div>
-
-                        {{-- [à mettre dans le modal du "lire plus"] :
-                         Cela fait suite à l’écho des malversations financières autour des activités des ambassades de la RDC dans le monde. Plusieurs diplomates congolais accrédités à l’étranger s’illustreraient à des combines dans la vente des passeports (ex.: Augmentation du prix de 100$ à 200$, parfois 300$).
-                        --}}
-
-                        <div class="item-info">
-                            {{--<h4>IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC</h4>--}}
-                            <p> Cela fait suite à l’écho des malversations financières autour des activités des ambassades de la RDC dans le monde. Plusieurs diplomates congolais accrédités à l’étranger s’illustreraient à des combines dans la vente des passeports (ex.: Augmentation du prix de 100$ à 200$, parfois 300$).</p>
-                            <p>
-                                Le prix du passeport est pourtant fixé à 99 USD par un arrêté interministériel signé le 10 novembre 2020 par la ministre des Affaires étrangères, MARIE TUMBA NZENZA, et le ministre des Finances, SELE YALAGHULI.
-                            </p>
-                        </div>
-                    </div>
+            <div class="row mt-5">
+                <div class="col-12 mt-2 mb-3">
+                    <p class="text-center text-boldS h4 c-primary">
+                        <a href="https://urlz.fr/hqSD" target="_blank">IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC</a>
+                    </p>
                 </div>
-                {{--<div class="col-lg-4 col-sm-4 mt60 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="isotope_item hover-scale">
-                        <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                            <a href="#"><img src="templateFiles/niwax/images/portfolio/image-1.jpg" alt="image" class="img-fluid" /> </a>
-                        </div>
-                        <div class="item-info">
-                            <h4><a href="#">Creative App</a></h4>
-                            <p>iOs, Android</p>
-                        </div>
-                    </div>
-                </div>--}}
+                <div class="col-lg-6">
+                    <a href="#"><img src="{{ asset("myFiles/images/visite-ambassades.png") }}" alt="image" title="IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC" class="img-fluid" /> </a>
+                </div>
+                <div class="col-lg-6">
+                    <p> Cela fait suite à l’écho des malversations financières autour des activités des ambassades de la RDC dans le monde. Plusieurs diplomates congolais accrédités à l’étranger s’illustreraient à des combines dans la vente des passeports (ex.: Augmentation du prix de 100$ à 200$, parfois 300$).</p>
+                    <p>
+                        Le prix du passeport est pourtant fixé à 99 USD par un arrêté interministériel signé le 10 novembre 2020 par la ministre des Affaires étrangères, MARIE TUMBA NZENZA, et le ministre des Finances, SELE YALAGHULI.
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -329,7 +329,7 @@
                 <div class="col-lg-7 pr-4">
                     <div class="common-heading text-l">
                         {{--<span>Who We Are</span>--}}
-                        <h2 class="mb20 wow fadeInUp c-highligh" data-wow-delay="0.2s">Pourquoi améliorer le e-Visa actuel ?</h2>
+                        <h2 class="mb20 wow fadeInUp c-white" data-wow-delay="0.2s">Pourquoi améliorer le e-Visa actuel ?</h2>
                         <p class="wow fadeInUp text-black lh-2"  data-wow-delay="0.4s">
                             La demande de visa peut être compliquée et chronophage pour les voyageurs souvent pressés. Pour demander un visa dans les ambassades, vous passez souvent de fâcheux moments dans les longues files d’attente. Parfois même, on vous demande de revenir un autre jour.
                         </p>
@@ -338,14 +338,14 @@
                         </p>
 
                     </div>
-                    <div >
+                    <div class="mb-3" >
                         <p class="text-center">
-                            <a href="{{ route("frontOfficeEVisaPage") }}" title="En savoir plus sur le e-Visa" class="btn-main bg-btn lnk mt30">Lire plus <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                            <a href="{{ route("frontOfficeEVisaPage") }}" title="En savoir plus sur le e-Visa" class="btn-main bg-btn2 lnk mt30">Lire plus <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-5 text-right">
-                    <img src="{{ asset("myFiles/images/e-visa-example.PNG") }}" class="img-fluid img-media" alt="">
+                    <img src="{{ asset("myFiles/images/e-visa-example.png") }}" class="img-fluid img-media" alt="">
                     {{--<div class="img-design h-scl-">
                         <div class="imgac "> <img src="templateFiles/niwax/images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base"></div>
                         <div class="imgac h-scl-base"><img src="templateFiles/niwax/images/hero/creative-ag2b.jpg" alt="creative agnecy html template" class="ag-dg2 img-fluid "></div>
@@ -379,11 +379,11 @@
             --}}
             <div class="row">
 
-                <div class="col-lg-4S col-12 mt60 wow fadeIn" data-wow-delay=".2s">
+                <div class="col-lg-4S col-12 mt60S wow fadeIn" data-wow-delay=".2s">
                     <h4>Uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques</h4>
                     <p>La circulaire N°003/CAB/ME/MINBUDGET 2016 du 18 juin 2016 recommande l’uniformisation des visas dans toutes les missions diplomatiques. Mais entre la DGM et les missions diplomatiques, c’est le régime du chacun pour soi en matière de délivrance des visas.</p>
                     <p class="text-center mt-2">
-                        La RDC a déjà mise en place le site web e-visa en ligne : <a href="https://www.evisa.gouv.cd" target="_blank" class="text-black">www.evisa.gouv.cd</a>.
+                        La DMG a déjà mise en place le site web e-visa en ligne : <a href="https://www.evisa.gouv.cd" target="_blank" class="text-black">www.evisa.gouv.cd</a>.
                     </p>
 
 
@@ -395,17 +395,22 @@
                         <div class="col">
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/bootstrap.png" width="56" alt="Bootstrap logo">--}}
-                                <img class="d-block mb-3" src="{{ asset("myFiles/images/e-visa-responsive.png") }}" width="70" alt="Multilangue">
+                                <img class="d-blockS mb-3 img-fluid" src="{{ asset("myFiles/images/e-visa-responsive.png") }}" alt="EVisa et Epasseport multi-plateforme" title="EVisa et Epasseport multi-plateforme">
                                 <h3 class="h6 c-highligh text-bold">Multi-plateforme</h3>
-                                <p class="fs-sm mb-0">
+                                <ul class="fs-sm mb-0 list-unstyled text-dark">
+                                    <li class="lh-2">PC</li>
+                                    <li class="lh-2">Tablette</li>
+                                    <li class="lh-2">Smartphone, Smartwatch</li>
+                                </ul>
+                                {{--<p class="fs-sm mb-0">
                                     PC, Tablette, Smartphone, Smartwatch.
-                                </p>
+                                </p>--}}
                             </div>
                         </div>
                         <div class="col">
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/html-code.png" width="56" alt="code logo">--}}
-                                <img class="d-block mb-3 rounded" src="{{ asset("myFiles/images/multi-langues-2.PNG") }}" width="70" alt="Bootstrap logo">
+                                <img class="d-block mb-3 img-fluid rounded" src="{{ asset("myFiles/images/multi-langues-2.png") }}" alt="e-visa et e-passeport multilingue" title="e-visa et e-passeport multilingue">
                                 <h3 class="h6 c-highligh text-bold">Multilingue</h3>
                                 <p class="fs-sm mb-0">
                                     Toutes les grandes langues du monde sont représentée, pour améliorer l’accessibilité par les étrangers.
@@ -415,9 +420,9 @@
                         <div class="col">
                             <div class="card card-body card-hover h-100 border-0">
                                 {{--<img class="d-block mb-3" src="templateFiles/niwax/img/components.png" width="56" alt="Components icon">--}}
-                                <img class="d-block mb-3" src="{{ asset("myFiles/images/carte-bancaire.PNG") }}" width="70" height="50" alt="Paiement multi-canal">
+                                <img class="d-block mb-3 img-fluid" src="{{ asset("myFiles/images/carte-bancaire.png") }}" alt="Paiement multi-canal pour e-visa et e-passeport" title="Paiement multi-canal pour e-visa et e-passeport">
                                 <h3 class="h6 c-highligh text-bold">Paiement multi-canal</h3>
-                                <p class="fs-sm mb-0"> Cartes bancaires (débit/crédit), portefeuilles virtuelles (PayPal,…) , mobile money (M-Pesa, Orange money…).</p>
+                                <p class="fs-sm mb-0 text-left"> Cartes bancaires (débit/crédit), portefeuilles virtuelles (PayPal,…) , mobile money (M-Pesa, Orange money…).</p>
                             </div>
                         </div>
 
@@ -486,7 +491,7 @@
         <div class="container">
             <div class="row v-center">
 
-                <h3 class="text-center mb-3">Méthodes de paiement disponibles lors de la demande d'un e-Passeport</h3>
+                <h3 class="text-center mb-5 c-primary">Méthodes de paiement disponibles pour VISApasseport</h3>
 
                 @include("myViews.frontOffice.include.paymentMethods")
 

@@ -14,7 +14,7 @@
                 <div class="col-lg-6 v-center">
                     <div class="common-heading text-l">
                         <span>Contactez-nous maintenant</span>
-                        <h2 class="mt0 mb0">Vous avez des question ? Ecrivez-nous</h2>
+                        <h3 class="mt0 mb0 c-primary">Vous avez des question ? Ecrivez-nous</h3>
                         <p class="mb60 mt20">
                             Nous vous reviendrons ausstôt que nous aurons votre message.
                         </p>

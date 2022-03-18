@@ -6,16 +6,16 @@ File Description: Main JS file of the template*/
   
    //wow animation
     new WOW().init();
-    //Mobile nav
+    //Mobile nav <img src='myFiles/images/logo/logo_text.png' alt='Logo' class='mega-darks-logo'/>
     var $main_nav = $('#main-nav');
     var $toggle = $('.toggle');
     var defaultOptions = {
       disableAt: false,
       customToggle: $toggle,
       levelSpacing: 10,
-       navTitle: 'Niwax Menu',
+       navTitle:"VISApasseport", //'Niwax Menu',
        levelTitles: true,
-      levelTitles: true,
+      //levelTitles: true,
        labelClose: false,
       levelTitleAsBack: true,
       levelOpen: 'expand',

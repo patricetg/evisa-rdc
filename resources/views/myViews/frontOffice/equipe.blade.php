@@ -64,7 +64,7 @@
     </section>
 
     <!--Start Team Members-->
-    <section class="team pad-tb deep-dark">
+    <section class="team pad-tbS deep-dark">
         <div class="container">
             {{--<div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -78,7 +78,7 @@
 
             <div class="row">
                 <div class="col">
-                    <h4 class="text-black text-center">
+                    <h4 class="text-black text-center text-bold">
                         Les ORGANES DU GOUVERNEMENTS QUI SERONT IMPLIQUES DANS LE PROJET VISAPASSEPORT :
                     </h4>
                 </div>
@@ -159,7 +159,7 @@
                         <div class="info-text-block">
                             {{--<h4><a href="#">DGM</a></h4>--}}
                             <p>
-                                pour l'obtention du passeport , le requérant devra aller au bureau de l’identification à l’Agence nationale des renseignements (ANR).
+                                Pour l'obtention du passeport , le requérant devra aller au bureau de l’identification à l’Agence nationale des renseignements (ANR).
                             </p>
                         </div>
                     </div>

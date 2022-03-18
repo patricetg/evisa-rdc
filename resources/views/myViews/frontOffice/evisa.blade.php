@@ -10,28 +10,54 @@
     <section class="hero-section minimal-portfolio" data-background="{{ asset("templateFiles/niwax/images/shape/bg-light.png") }}" id="home">
         <div class="text-block">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 v-center niwax" data-rellax-speed="4">
+                <div class="row ">
+                    <div class="col-lg-6 v-center niwax mt-n9S mt-lg-n9" data-rellax-speed="4">
                         <div class="header-heading">
                             {{--<div class="mb30 dzname wow fadeIn" data-wow-delay=".2s">I'm Lucy Tania</div>--}}
-                            <h1 class="wow fadeIn" data-wow-delay=".4s">
+                            <h1 class="wow fadeIn mt-6" data-wow-delay=".4s">
                                 {{-- User Interface Designer --}}
                                 e-Visa
                             </h1>
                            {{-- <h4 class="mb30 wow fadeIn" data-wow-delay=".6s">Un processus simple et fluide</h4>--}}
-                            <p class="wow fadeIn" data-wow-delay=".8s">
-                                C’est un visa sollicité et octroyé électroniquement. Il vous permet de vous présenter à n'importe quel poste d'entrée en République Démocratique du Congo (frontière terrestre, maritime ou lacustre).
+                            <h4 class="wow fadeIn">Un visa sollicité et octroyé électroniquement.</h4>
+                            <p class="wow fadeIn pt-5 py-3 text-bold mb-0" data-wow-delay=".8s">
+                                e-Visa vous permet de vous présenter à n'importe quel poste d'entrée en République Démocratique du Congo (frontière terrestre, maritime ou lacustre).
                             </p>
-                            <p class="wow fadeIn" data-wow-delay=".8s">
-                                L’e-VISA est dans le chronogramme des actions prioritaires du PNN (Projet 1 : Dotation des services consulaires congolais d'un système de visa électronique d'entrée , PAGE 56 du PNN)
+                            <p class="wow fadeIn py-3" data-wow-delay=".8s">
+                                <em>
+                                L’e-VISA est dans le chronogramme des actions prioritaires du PNN (Projet 1 : Dotation des services consulaires congolais d'un système de visa électronique d'entrée , PAGE 56 du PNN).
+                                </em>
                             </p>
-                            <div class="-content-sec  d-flex v-center wow fadeIn" data-wow-delay="1s">
+
+                            <div class="video-btn  d-flex v-center gap10 mx-auto pt-2">
+                                <div class="video-intro-ppx mx-autoS">
+                                    {{--<a class="video-link play-video" href="{{ asset("myFiles/videos/president-antoine.mp4") }}">
+                                        <span class="triangle-play"></span>
+                                    </a>--}}
+                                    {{--<a class="video-link play-video" href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0">
+                                        <span class="triangle-play"></span>
+                                    </a>--}}
+                                </div>
+                                <div class="title-hero mx-auto pt-4">
+                                    <p >
+                                        <a class="video-link play-video" href="{{ asset("myFiles/videos/e-visa.mp4") }}">
+                                            <span class="triangle-play"></span>
+                                        </a>
+                                        <span class="c-primary">
+                                    Regarder la vidéo
+                                    </span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            {{--<div class="-content-sec  d-flex v-center wow fadeIn" data-wow-delay="1s">
                                 <div class="video-intro-pp v-center">
                                     <a class="video-link play-video" href="{{ asset("myFiles/videos/e-visa.mp4") }}"><span class="triangle-play"></span></a>
-                                    {{--<a class="video-link play-video" href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&amp;rel=0"><span class="triangle-play"></span></a>--}}
                                 </div>
                                 <div class="title-hero-oth v-center"><p>Regarder la vidéo</p></div>
-                            </div>
+                            </div>--}}
+
+
                         </div>
                     </div>
                     <div class="col-lg-6 v-center"><div class="img-hro" data-tilt data-tilt-max="4" data-tilt-speed="6000"><img src="{{ asset("myFiles/images/evisa-header.png") }}" alt="title" class="img-fluid"></div></div>
@@ -59,14 +85,14 @@
 
 
     <!--Start Portfolio-->
-    <section class="dg-portfolio-section pb80 pt80">
+    <section class="dg-portfolio-section pb80S pt80S pt-6" id="how-to-obtain-evisa">
         <div class="container">
             <div class="row justify-content-center ">
                 <div class="col-lg-8">
                     <div class="common-heading-2">
                         <span class="text-effect-2">Comment obtenir un e-Visa ?</span>
                         {{--<p class="text-muted text-center">Il y a 05 grandes étapes</p>--}}
-                        <h2 class="mb0">Les 05 étapes pour obtenir son e-visa</h2>
+                        <h2 class="mb0">Les {{--05--}} étapes pour obtenir son e-visa</h2>
                     </div>
                 </div>
             </div>
@@ -76,24 +102,24 @@
 
                     <div class="row">
                         <div class="col">
-                            <h4 class="text-center">A - REMPLIR LE FORMULAIRE EN LIGNE</h4>
+                            <h5 class="text-center text-dark text-bold">A - REMPLIR LE FORMULAIRE EN LIGNE</h5>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <p class="lh-2">
+                        <div class="col-md-6 pt-3">
+                            <p class="lh-2 my-2 h5">
                                 <strong>Détails sur la personne</strong> : Nom et Prénom, Date de naissance, Pays / Ville, Téléphone, Email, Etc.
                             </p>
-                            <p class="lh-2">
+                            <p class="lh-2 my-4 h5">
                                 <strong>Détails sur le passeport</strong> : Nationalité, Numéro du passeport, Lieu de délivrance, Date d’expiration, Etc.
                             </p>
-                            <p class="lh-2">
+                            <p class="lh-2 my-4 h5">
                                 <strong>Détails sur le e-Visa demandé</strong> : Type de e-Visa, Durée du séjour, Nombre d’entrées, poste d'entrée / poste de sortie, Etc.
                             </p>
 
                         </div>
                         <div class="col-md-6">
-                            <img src="{{ asset("myFiles/images/remplir-formulaire.png") }}" alt="">
+                            <img src="{{ asset("myFiles/images/remplir-formulaire.png") }}" class="img-fluid rounded" alt="">
                         </div>
                     </div>
                 </div>
@@ -104,16 +130,16 @@
 
                     <div class="row">
                         <div class="col">
-                            <h4 class="text-center">B - FOURNIR LES DOCUMENTS DEMANDÉS EN LIGNE</h4>
+                            <h5 class="text-center text-dark text-bold">B - FOURNIR LES DOCUMENTS DEMANDÉS EN LIGNE</h5>
                         </div>
                     </div>
 
 
                     <div class="row">
 
-                        <div class="col-lg-4S col-sm-6 mt-3 mt60S wow fadeIn" data-wow-delay=".2s">
+                        <div class="col-lg-4S col-sm-6 mt-4 mt60S wow fadeIn" data-wow-delay=".2s">
                             <div>
-                                <h6 class="mb10 text-center">
+                                <h6 class="mb10 text-center c-primary">
                                     <span class="badge bg-primary p-3 rounded-circle">1</span>
                                     Votre photo d'identité
                                 </h6>
@@ -136,9 +162,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4S col-sm-6 mt-3 mt60S wow fadeIn" data-wow-delay=".5s">
+                        <div class="col-lg-4S col-sm-6 mt-4 mt60S wow fadeIn" data-wow-delay=".5s">
                             <div>
-                                <h6 class="mb10 text-center">
+                                <h6 class="mb10 text-center c-primary">
                                     <span class="badge bg-primary p-3 rounded-circle">2</span>
                                     Votre passeport
                                 </h6>
@@ -160,10 +186,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4S col-sm-6 mt-3 mt60S wow fadeIn" data-wow-delay=".8s">
+                        <div class="col-lg-4S col-sm-6 mt-4 mt60S wow fadeIn" data-wow-delay=".8s">
                             <div class="isotope_item h-scl-">
                                 <div>
-                                    <h6 class="mb10 text-center">
+                                    <h6 class="mb10 text-center c-primary">
                                         <span class="badge bg-primary p-3 rounded-circle">3</span>
                                         Votre reçu de réservation de vol
                                     </h6>
@@ -184,9 +210,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4S col-sm-6 mt-3 mt60S wow fadeIn" data-wow-delay="1.1s">
+                        <div class="col-lg-4S col-sm-6 mt-4 mt60S wow fadeIn" data-wow-delay="1.1s">
                             <div>
-                                <h6 class="mb10 text-center">
+                                <h6 class="mb10 text-center c-primary">
                                     <span class="badge bg-primary p-3 rounded-circle">4</span>
                                     Votre preuve de vaccination anti-codiv, votre Test PCR Codiv-19
                                 </h6>
@@ -246,19 +272,40 @@
             </div>
 
 
-            <div class="row my-5">
+            <div class="row my-5" id="pay-evisa">
                 <div class="col">
 
                     <div class="row">
                         <div class="col">
-                            <h4 class="text-center">C - PAIEMENT DES FRAIS DE e-Visa EN LIGNE</h4>
+                            <h5 class="text-center text-dark text-bold">C - PAIEMENT DES FRAIS DE e-Visa EN LIGNE</h5>
                         </div>
                     </div>
+
                     <div class="row">
+
+                        <div class="col-12 col-lg-4S col-sm-6S mt60S mt-2 wow fadeIn" data-wow-delay=".2s">
+                            <p class="text-center">
+                                Le paiement en ligne est un élément indispensable pour mettre en œuvre le e-Visa. Notre objectif est :
+                            </p>
+                            <ul class="mt-3">
+                                <li class="my-2 lh-2">
+                                    D'intégrer les types de paiement les plus utilisés dans le monde pour rendre l’e-Visa accessible à plus de monde.
+                                </li>
+                                <li class="my-2 lh-2">
+                                    De sécuriser les transactions : certifiée PCI-DSS, système d’authentification forte (3D Secure), protocole SSL qui crypte les numéros de cartes bancaires
+                                </li>
+                            </ul>
+                            <p class="text-center h4 my-3 text-bold c-primary">
+                                Plusieurs méthode de paiements sont disponibles :
+                            </p>
+                        </div>
+                    </div>
+
+                   {{-- <div class="row">
                         <div class="col">
                             <p class="text-center">Plusieurs méthode de paiements sont disponibles.</p>
                         </div>
-                    </div>
+                    </div>--}}
                     @include("myViews.frontOffice.include.paymentMethods")
                 </div>
             </div>
@@ -268,6 +315,7 @@
     </section>
     <!--End Portfolio-->
 
+{{--
 
     <section class="dg-portfolio-section pb80 pt80">
         <div class="container">
@@ -351,8 +399,9 @@
 
         </div>
     </section>
+--}}
 
-    <section class="dg-portfolio-section pb80 pt80">
+    <section class="dg-portfolio-sectionS pb80S pt80S pt-4 bg-dotted">
         <div class="container">
             <div class="row justify-content-center ">
                 <div class="col-lg-8">
@@ -363,17 +412,18 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row my-5">
 
                 <div class="row wow fadeIn" data-wow-delay=".2s">
-                    <div class="col-md-7 pr-4">
-                        <p class="text-center h3 c-secondary h4 lh-3">
-                            L'e-Visa (avec un code QR) sera envoyé à l'adresse e-mail fournie lors du processus de demande. Il doit être imprimé pour être présenté aux gardes-frontières.
-                        </p>
-                    </div>
                     <div class="col-md-5">
                         <img src="{{ asset("myFiles/images/e-visa-example.png") }}" alt="">
                     </div>
+                    <div class="col-md-7 pr-4S">
+                        <p class="text-center h3 c-secondaryS text-dark pt-4 h4 lh-3">
+                            L'e-Visa (avec un code QR) sera envoyé à l'adresse e-mail fournie lors du processus de demande. Il doit être imprimé pour être présenté aux gardes-frontières.
+                        </p>
+                    </div>
+
                 </div>
 
                {{-- <div class="col-12 col-lg-4S col-sm-6S mt60 wow fadeIn" data-wow-delay=".2s">
@@ -434,7 +484,7 @@
 
 
     <!--Start Portfolio-->
-    <section class="portfolio-section pad-tb">
+    <section class="portfolio-sectionS pad-tbS">
         <div class="container">
             <div class="row justify-content-center ">
                 <div class="col-lg-9">
@@ -446,7 +496,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 mt60 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-md-6 mt60S mt-5 wow fadeInUp" data-wow-delay="0.2s">
                     <h5 class="text-center text-black">Aéroport international de Ndjili, Kinshasa (FIH)</h5>
                     <div class="isotope_item hover-scale">
                         <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
@@ -466,7 +516,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 mt60 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-md-6 mt60S mt-5 wow fadeInUp" data-wow-delay="0.4s">
                     <h5 class="text-center text-black"> Aéroport international de la Luano, Lubumbashi (FBM)</h5>
                     <div class="isotope_item hover-scale">
                         <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
@@ -479,8 +529,7 @@
                     </div>
                 </div>
 
-
-                <div class="col-md-6 mt60 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="col-md-6 mt60S mt-5 wow fadeInUp" data-wow-delay="0.6s">
                     <h5 class="text-center text-black"> Aéroport international de Goma (GOM)</h5>
                     <div class="isotope_item hover-scale">
                         <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
@@ -493,9 +542,7 @@
                     </div>
                 </div>
 
-
-
-                <div class="col-md-6 mt60 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="col-md-6 mt60S mt-5 wow fadeInUp" data-wow-delay="0.8s">
                     <h5 class="text-center text-black"> Aéroport international de Bangoka, Kisangani (KFI)</h5>
                     <div class="isotope_item hover-scale">
                         <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">

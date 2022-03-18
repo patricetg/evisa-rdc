@@ -23,6 +23,10 @@ h3, h4,h5{
     font-weight: bold !important;
 }
 
+.text-left {
+   text-align: left !important; ;
+}
+
 .text-right {
    text-align: right ;
 }
@@ -39,6 +43,10 @@ h3, h4,h5{
     height: 90vh !important;
 }
 
+.c-primary{
+    color : var(--primary) !important;
+}
+
 .c-success{
     color : var(--success) !important;
 }
@@ -47,16 +55,20 @@ h3, h4,h5{
     color : var(--secondary) !important;
 }
 
+.c-tertiary{
+    color : var(--tertiary) !important;
+}
+
 .c-white{
     color : var(--white) !important;
 }
 
 .c-highligh{
-    color : var(--yellow) !important;
+    color : var(--primary) !important;
 }
 
 a{
-    color : var(--yellow);
+    color : var(--primary);
     font-weight: bold;
 }
 
@@ -92,6 +104,10 @@ a{
     line-height: 4rem !important;
 }
 
+.ws-1{
+    word-spacing: 1rem !important;
+}
+
 @media (min-width: 992px){
     .modal-lg, .modal-xl {
         max-width: 800px;
@@ -111,3 +127,7 @@ a{
 .bg-gradient1 h1{
     color : var(--white) !important;
 }*/
+
+.bg-primary{
+    background: var(--primary) !important;
+}
