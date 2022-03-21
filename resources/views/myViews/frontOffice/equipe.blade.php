@@ -15,7 +15,7 @@
 
             </div>
             <div class="row">
-                <div class="col-8 mx-auto">
+                <div class="col-8S col-12 col-md-8 mx-auto">
                     <p class=" text-center">
                         <a href="#">
                             <img src="{{ asset("myFiles/images/planning-client.png") }}" style="height: 200px;" alt="team" class="img-fluid"/>

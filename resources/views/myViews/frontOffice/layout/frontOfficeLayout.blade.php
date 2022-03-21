@@ -519,7 +519,7 @@
 
 
         <!--Start Footer-->
-        <footer class="footerdez dark-footer pt50 pb80">
+        <footer class="footerdez dark-footer pt50 pb80 mt-4">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-lg-4 col-sm-12 pt40">
@@ -527,7 +527,7 @@
                             {{--<h2>WE WOULD LOVE TO HEAR FROM YOU.</h2>--}}
                             <img src="{{ asset("myFiles/images/visa-passeport2.png") }}" class="img-fluid" alt="">
                             <p class="mt10 c-tertiary">
-                                Démartérialiser la procédure d'obtention du visa et du passeport Congolais
+                                Dématérialiser la procédure d'obtention du visa et du passeport Congolais
                             </p>
                             <div class="mt30">
                                 <p class="c-tertiary">

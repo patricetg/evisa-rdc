@@ -2,6 +2,7 @@
 @import "niwax.css";
 @import "header-and-display.css";
 @import "spacing.css";
+@import "alignement.css";
 
 .h-100vh{
     height: 100vh !important;
@@ -23,13 +24,6 @@ h3, h4,h5{
     font-weight: bold !important;
 }
 
-.text-left {
-   text-align: left !important; ;
-}
-
-.text-right {
-   text-align: right ;
-}
 
 .b-0{
     bottom: 0 !important;

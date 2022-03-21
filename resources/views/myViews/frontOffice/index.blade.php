@@ -78,8 +78,8 @@
                         {{--<span class="text-black h5 text-bold">Président Antoine TSHISEKEDI TSHILOMBO</span>--}}
                         <h4 class="wow fadeIn text-bold text-center mt-3" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">Président Antoine TSHISEKEDI TSHILOMBO</h4>
                         {{--<h2>Pourquoi le E-passeport et le E-visa ?</h2>--}}
-                        <p class="lh-3 pt-4 c-secondaryS text-left text-dark text-boldS ws-1" style="font-size : x-large;">
-                            <q>Faire du Numérique congolais un levier d’intégration, de bonne gouvernance, de croissance économique et de progrès social Félix.</q>{{--, Président Antoine TSHISEKEDI TSHILOMBO.--}}
+                        <p class="lh-3 pt-4 c-secondaryS text-leftS text-sm-center text-md-left text-dark text-boldS ws-1" style="font-size : x-large;">
+                            <q>Faire du Numérique congolais un levier d’intégration, de bonne gouvernance, de croissance économique et de progrès social.</q>{{--, Président Antoine TSHISEKEDI TSHILOMBO.--}}
                         </p>
 {{--
 
@@ -576,7 +576,7 @@
     <!-- company awards icons -->
 
 
-    <section class="pad-tb">
+    <section class="pad-tb pb-0">
 
         <div class="container">
             <div class="row v-center">
