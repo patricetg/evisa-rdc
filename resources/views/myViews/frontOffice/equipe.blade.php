@@ -79,7 +79,7 @@
             <div class="row">
                 <div class="col">
                     <h4 class="text-black text-center text-bold">
-                        Les ORGANES DU GOUVERNEMENTS QUI SERONT IMPLIQUES DANS LE PROJET VISAPASSEPORT :
+                        Les ORGANES DU GOUVERNEMENT QUI SERONT IMPLIQUES DANS LE PROJET VISAPASSEPORT :
                     </h4>
                 </div>
             </div>

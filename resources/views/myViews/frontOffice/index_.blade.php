@@ -67,18 +67,18 @@
     <section class="about-agency pad-tb mt-sm-4">
         <div class="container">
             <div class="row">
-                {{--<div class="col-lg-6 v-center">
+                <div class="col-lg-6 v-center">
                     <div class="image-block">
                         <img src="{{ asset("myFiles/images/president-antoine.png") }}" alt="about" class="img-fluid no-shadow"/>
+                        {{--<img src="{{ asset("templateFiles/niwax/images/about/about-service.png") }}" alt="about" class="img-fluid no-shadow"/>--}}
                     </div>
-                </div>--}}
+                </div>
                 <div class="col-lg-6">
-                    <div class="common-heading text-l">
-                        <span class="c-primary">La vision de la RDC</span>
+                    <div class="common-headingS text-l">
                         {{--<span class="text-black h5 text-bold">Président Antoine TSHISEKEDI TSHILOMBO</span>--}}
-                        <h3 class="wow fadeIn text-bold text-centerS text-sm-center text-md-left mt-3" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">Président <br> Antoine TSHISEKEDI TSHILOMBO</h3>
+                        <h3 class="wow fadeIn text-bold text-centerS text-sm-center text-md-left mt-3" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">Président Antoine TSHISEKEDI TSHILOMBO</h3>
                         {{--<h2>Pourquoi le E-passeport et le E-visa ?</h2>--}}
-                        <p class="lh-3 pt-4 c-secondaryS text-leftS text-sm-center text-md-left text-dark text-boldS ws-1S" style="font-size : x-large;">
+                        <p class="lh-4 pt-4 c-secondaryS text-leftS text-sm-center text-md-left text-dark text-boldS ws-1" style="font-size : Xx-large;">
                             <q>Faire du Numérique congolais un levier d’intégration, de bonne gouvernance, de croissance économique et de progrès social.</q>{{--, Président Antoine TSHISEKEDI TSHILOMBO.--}}
                         </p>
 {{--
@@ -118,19 +118,6 @@
 
                     </div>
                 </div>
-
-                <div class="col-lg-6">
-                    <div class="img-design h-scl-">
-                        <div class="imgac ">
-                            <img src="{{ asset("myFiles/images/visa-passeport-2.png") }}" title="VISApasseport en RDC"  alt="VISApasseport en RDC"  class="ag-dg1 img-fluid h-scl-base">
-                            {{--<img src="templateFiles/niwax/images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base">--}}
-                        </div>
-                        <div class="imgac h-scl-base">
-                            <img src="{{ asset("myFiles/images/president-antoine-2.jpg") }}" alt="Président Antoine  TSHISEKEDI TSHILOMBO"  title="Président Antoine TSHISEKEDI TSHILOMBO"  class="ag-dg2 img-fluid ">
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
             <div class="row mt-3">
@@ -208,7 +195,6 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="common-heading text-center">
-                        <span>Un futur numérisé</span>
                         {{--<span class="text-effect-2">Our Best Services</span>--}}
                         <h2 class="mb30 c-whiteS c-primary text-bold">Le projet VISA-PASSEPORT</h2>
                     </div>
@@ -293,7 +279,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="common-heading text-l">
-                        <span>La plus-value apportée</span>
+                        {{--<span>Who We Are</span>--}}
                         <h2 class="mb20">Pourquoi mettre en place le e-Passeport ?</h2>
                         <p class="lh-3">Retracer la destination des recettes des passeports délivrés par le ministère des Affaires étrangères et les ambassades de la RDC dans le monde. L’objectif est de créer un circuit sécurisé et informatisé dans ces représentations diplomatiques, pour assurer une liaison avec Kinshasa et prévenir le détournement de fonds.</p>
 
@@ -315,10 +301,8 @@
 
             <div class="row mt-5">
                 <div class="col-12 mt-2 mb-3">
-                    <p class="text-center text-boldS lh-2 h4 c-primary">
-                        <a href="https://urlz.fr/hqSD" target="_blank">
-                            IGF: Jules Alingete à Paris et à Bruxelles <br> pour contrôler les ambassades de la RDC
-                        </a>
+                    <p class="text-center text-boldS h4 c-primary">
+                        <a href="https://urlz.fr/hqSD" target="_blank">IGF: Jules Alingete à Paris et à Bruxelles pour contrôler les ambassades de la RDC</a>
                     </p>
                 </div>
                 <div class="col-lg-6">
@@ -344,7 +328,7 @@
             <div class="row">
                 <div class="col-lg-7 pr-4">
                     <div class="common-heading text-l">
-                        <span>Les avantages</span>
+                        {{--<span>Who We Are</span>--}}
                         <h2 class="mb20 wow fadeInUp c-white" data-wow-delay="0.2s">Pourquoi améliorer le e-Visa actuel ?</h2>
                         <p class="wow fadeInUp text-black lh-2"  data-wow-delay="0.4s">
                             La demande de visa peut être compliquée et chronophage pour les voyageurs souvent pressés. Pour demander un visa dans les ambassades, vous passez souvent de fâcheux moments dans les longues files d’attente. Parfois même, on vous demande de revenir un autre jour.
@@ -399,7 +383,7 @@
                     <h4>Uniformiser l’octroi des visas d’entrée en RDC émanant de la DGM et les missions diplomatiques</h4>
                     <p>La circulaire N°003/CAB/ME/MINBUDGET 2016 du 18 juin 2016 recommande l’uniformisation des visas dans toutes les missions diplomatiques. Mais entre la DGM et les missions diplomatiques, c’est le régime du chacun pour soi en matière de délivrance des visas.</p>
                     <p class="text-center mt-2">
-                        La DGM a déjà mise en place le site web e-visa en ligne : <a href="https://www.evisa.gouv.cd" target="_blank" class="text-black">www.evisa.gouv.cd</a>.
+                        La DMG a déjà mise en place le site web e-visa en ligne : <a href="https://www.evisa.gouv.cd" target="_blank" class="text-black">www.evisa.gouv.cd</a>.
                     </p>
 
 

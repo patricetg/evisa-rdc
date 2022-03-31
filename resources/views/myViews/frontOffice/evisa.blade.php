@@ -11,7 +11,7 @@
         <div class="text-block">
             <div class="container">
                 <div class="row ">
-                    <div class="col-lg-6 v-center niwax mt-n9S mt-lg-n9" data-rellax-speed="4">
+                    <div class="col-lg-6 v-center niwax mt-n8 mt-sm-n9S mt-lg-n9S" data-rellax-speed="4">
                         <div class="header-heading">
                             {{--<div class="mb30 dzname wow fadeIn" data-wow-delay=".2s">I'm Lucy Tania</div>--}}
                             <h1 class="wow fadeIn mt-6" data-wow-delay=".4s">
