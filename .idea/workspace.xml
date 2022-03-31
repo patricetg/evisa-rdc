@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d913b8e9-6093-4d54-80b3-5c225b36c6d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/myViews/frontOffice/index_.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/myFiles/images/carte-bancaire-2.png" afterPath="$PROJECT_DIR$/public/myFiles/images/carte-bancaire-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/myFiles/images/carte-bancaire.png" afterPath="$PROJECT_DIR$/public/myFiles/images/carte-bancaire.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/myViews/frontOffice/equipe.blade.php" afterPath="$PROJECT_DIR$/resources/views/myViews/frontOffice/equipe.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/myViews/frontOffice/evisa.blade.php" afterPath="$PROJECT_DIR$/resources/views/myViews/frontOffice/evisa.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/myViews/frontOffice/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/myViews/frontOffice/index.blade.php" />
-    </list>
+    <list default="true" id="d913b8e9-6093-4d54-80b3-5c225b36c6d3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +53,7 @@
             <entry file="file://$PROJECT_DIR$/public/myFiles/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
-                  <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+                  <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +72,8 @@
           <file leaf-file-name="spacing.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/myFiles/css/spacing.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="149">
-                  <caret line="1477" column="15" lean-forward="true" selection-start-line="1477" selection-start-column="15" selection-end-line="1477" selection-end-column="15" />
+                <state relative-caret-position="36925">
+                  <caret line="1477" column="15" lean-forward="false" selection-start-line="1477" selection-start-column="15" selection-end-line="1477" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -118,7 +110,7 @@
           <file leaf-file-name="niwax.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/myFiles/css/niwax.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="25">
+                <state relative-caret-position="2075">
                   <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
                   <folding />
                 </state>
@@ -132,7 +124,7 @@
           <file leaf-file-name=".env" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.env">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
+                <state relative-caret-position="0">
                   <caret line="17" column="103" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="103" />
                   <folding />
                 </state>
@@ -149,20 +141,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes/web.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="875">
-                  <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
+                <state relative-caret-position="7275">
                   <caret line="399" column="150" lean-forward="false" selection-start-line="399" selection-start-column="150" selection-end-line="399" selection-end-column="150" />
                   <folding>
                     <element signature="e#141#1647#0#Blade" expanded="false" />
@@ -396,6 +378,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -472,7 +455,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,24 +535,25 @@
       <workItem from="1647874857318" duration="2290000" />
       <workItem from="1647975972319" duration="29000" />
       <workItem from="1648455718556" duration="2650000" />
+      <workItem from="1648742049382" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160017000" />
+    <option name="totallyTimeSpent" value="160036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22747014" sideWeight="0.5542453" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23072746" sideWeight="0.5495283" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22747014" sideWeight="0.4457547" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23072746" sideWeight="0.4504717" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -594,14 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/myFiles/css/color.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/myFiles/css/niwax.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -905,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="0">
           <caret line="17" column="103" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="103" />
           <folding />
         </state>
@@ -929,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/layout/frontOfficeLayout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11375">
-          <caret line="521" column="59" lean-forward="false" selection-start-line="521" selection-start-column="59" selection-end-line="521" selection-end-column="59" />
+        <state relative-caret-position="1275">
+          <caret line="51" column="124" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="124" />
           <folding>
             <marker date="1647853838429" expanded="false" signature="10414:16760" ph="..." />
             <marker date="1647853838429" expanded="false" signature="41913:42273" ph="..." />
@@ -985,7 +960,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/myFiles/css/niwax.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="2075">
           <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
           <folding />
         </state>
@@ -1001,7 +976,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="7275">
           <caret line="399" column="150" lean-forward="false" selection-start-line="399" selection-start-column="150" selection-end-line="399" selection-end-column="150" />
           <folding>
             <element signature="e#141#1647#0#Blade" expanded="false" />
@@ -1026,7 +1001,34 @@
     <entry file="file://$PROJECT_DIR$/public/myFiles/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/myFiles/css/spacing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36925">
+          <caret line="1477" column="15" lean-forward="false" selection-start-line="1477" selection-start-column="15" selection-end-line="1477" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/equipe.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="81" column="51" lean-forward="false" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
+          <folding>
+            <marker date="1648458644896" expanded="false" signature="4195:4944" ph="..." />
+            <marker date="1648458644896" expanded="false" signature="5003:5707" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1040,25 +1042,6 @@
             <marker date="1648458600284" expanded="false" signature="17906:18058" ph="..." />
             <marker date="1648458600284" expanded="false" signature="18130:18302" ph="..." />
             <marker date="1648458600284" expanded="false" signature="18349:18561" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/myFiles/css/spacing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1477" column="15" lean-forward="true" selection-start-line="1477" selection-start-column="15" selection-end-line="1477" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/equipe.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="81" column="51" lean-forward="false" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
-          <folding>
-            <marker date="1648458644896" expanded="false" signature="4195:4944" ph="..." />
-            <marker date="1648458644896" expanded="false" signature="5003:5707" ph="..." />
           </folding>
         </state>
       </provider>
