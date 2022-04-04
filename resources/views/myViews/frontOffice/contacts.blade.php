@@ -74,7 +74,7 @@
 
                     <h4 class="text-black text-center">Contacter le coordinateur de VISApasseport : CHRISTIAN MASITU</h4>
 
-                    <img src="{{ asset("myFiles/images/christian.PNG") }}" class="img-fluid" title="CHRISTIAN MASITU" alt="CHRISTIAN MASITU">
+                    <img src="{{ asset("myFiles/images/christian.png") }}" class="img-fluid" title="CHRISTIAN MASITU" alt="CHRISTIAN MASITU">
 
                     <p class="text-dark text-center lh-2">
                         Congolais résident au Maroc. Ingénieur d’Etat et Co-fondateur de PLANNINGCLIENT

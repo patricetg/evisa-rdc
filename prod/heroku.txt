@@ -1,0 +1,2 @@
+heroku access:add k.moise.gui@gmail.com -a visapasseport
+heroku apps:transfer -a visapasseport k.moise.gui@gmail.com

@@ -12,7 +12,8 @@ class TrustProxies extends Middleware
      *
      * @var array|string|null
      */
-    protected $proxies;
+    // source : https://stackoverflow.com/questions/59313620/really-force-http-to-https-in-laravel
+    protected $proxies="*"; //protected $proxies;
 
     /**
      * The headers that should be used to detect proxies.
