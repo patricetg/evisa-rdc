@@ -602,7 +602,7 @@
                                     </li>
                                     <li>
                                         <i class="fab fa-twitter"></i>
-                                        <a href="skype:christian_masit?call">@christian_masit</a>
+                                        <a href="https://twitter.com/christian_masit" target="_blank">@christian_masit</a>
                                     </li>
                                 </ul>
                             </div>

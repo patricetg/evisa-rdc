@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d913b8e9-6093-4d54-80b3-5c225b36c6d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/myViews/frontOffice/contacts.blade.php" afterPath="$PROJECT_DIR$/resources/views/myViews/frontOffice/contacts.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/myViews/frontOffice/layout/frontOfficeLayout.blade.php" afterPath="$PROJECT_DIR$/resources/views/myViews/frontOffice/layout/frontOfficeLayout.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,24 +17,24 @@
     <splitter split-orientation="vertical" split-proportion="0.48705882">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="frontOfficeLayout.blade.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="frontOfficeLayout.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/layout/frontOfficeLayout.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="28" column="92" lean-forward="true" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
+                <state relative-caret-position="25">
+                  <caret line="604" column="84" lean-forward="false" selection-start-line="604" selection-start-column="84" selection-end-line="604" selection-end-column="84" />
                   <folding>
-                    <marker date="1647853838429" expanded="false" signature="10414:16760" ph="..." />
-                    <marker date="1647853838429" expanded="false" signature="41913:42273" ph="..." />
+                    <marker date="1649146461007" expanded="false" signature="10414:16760" ph="..." />
+                    <marker date="1649146461007" expanded="false" signature="41913:42273" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TrustProxies.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TrustProxies.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="143">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                <state relative-caret-position="375">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -43,7 +43,7 @@
           <file leaf-file-name="TrustProxies.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/vendor/fideloper/proxy/src/TrustProxies.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="127">
+                <state relative-caret-position="500">
                   <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
                   <folding />
                 </state>
@@ -53,7 +53,7 @@
           <file leaf-file-name="equipe.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/equipe.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
+                <state relative-caret-position="2150">
                   <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
                   <folding>
                     <marker date="1648458644896" expanded="false" signature="4195:4944" ph="..." />
@@ -66,8 +66,8 @@
           <file leaf-file-name="contacts.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/contacts.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2050">
-                  <caret line="76" column="68" lean-forward="false" selection-start-line="76" selection-start-column="68" selection-end-line="76" selection-end-column="68" />
+                <state relative-caret-position="150">
+                  <caret line="87" column="135" lean-forward="false" selection-start-line="87" selection-start-column="135" selection-end-line="87" selection-end-column="135" />
                   <folding />
                 </state>
               </provider>
@@ -127,11 +127,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".env" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.env">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+                <state relative-caret-position="250">
+                  <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -167,10 +167,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="389">
+                <state relative-caret-position="337">
                   <caret line="399" column="150" lean-forward="false" selection-start-line="399" selection-start-column="150" selection-end-line="399" selection-end-column="150" />
                   <folding>
                     <element signature="e#141#1647#0#Blade" expanded="false" />
@@ -265,8 +265,8 @@
                 <state relative-caret-position="1275">
                   <caret line="51" column="124" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="124" />
                   <folding>
-                    <marker date="1647853838429" expanded="false" signature="10414:16760" ph="..." />
-                    <marker date="1647853838429" expanded="false" signature="41913:42273" ph="..." />
+                    <marker date="1649146461007" expanded="false" signature="10414:16760" ph="..." />
+                    <marker date="1649146461007" expanded="false" signature="41913:42273" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -285,8 +285,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>obtenir</find>
-      <find>paieme</find>
       <find>plusieur</find>
       <find>carte-ban</find>
       <find>pour l'</find>
@@ -315,6 +313,8 @@
       <find>dmg</find>
       <find>mt-sm-n9</find>
       <find>.png</find>
+      <find>tw</find>
+      <find>twit</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;templateFiles/niwax/images</replace>
@@ -347,7 +347,6 @@
         <option value="$PROJECT_DIR$/resources/views/myViews/frontOffice/epasseport.blade.php" />
         <option value="$PROJECT_DIR$/public/templateFiles/niwax/js/main.js" />
         <option value="$PROJECT_DIR$/resources/views/myViews/frontOffice/include/paymentMethods.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/myViews/frontOffice/layout/frontOfficeLayout.blade.php" />
         <option value="$PROJECT_DIR$/public/myFiles/css/alignement.css" />
         <option value="$PROJECT_DIR$/public/myFiles/css/style.css" />
         <option value="$PROJECT_DIR$/public/myFiles/css/niwax.css" />
@@ -358,8 +357,9 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/myViews/frontOffice/contacts.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" />
+        <option value="$PROJECT_DIR$/resources/views/myViews/frontOffice/contacts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/myViews/frontOffice/layout/frontOfficeLayout.blade.php" />
       </list>
     </option>
   </component>
@@ -373,10 +373,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1698" />
-    <option name="height" value="1020" />
+    <option name="width" value="1938" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -396,6 +396,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -442,7 +443,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,28 +524,30 @@
       <workItem from="1647975972319" duration="29000" />
       <workItem from="1648455718556" duration="2650000" />
       <workItem from="1648742049382" duration="3762000" />
-      <workItem from="1649061078199" duration="2964000" />
+      <workItem from="1649061078199" duration="3559000" />
+      <workItem from="1649091181192" duration="750000" />
+      <workItem from="1649146211869" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166743000" />
+    <option name="totallyTimeSpent" value="168339000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1698" height="1020" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1038" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2669544" sideWeight="0.5435294" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23899034" sideWeight="0.53341013" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2669544" sideWeight="0.45647058" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23899034" sideWeight="0.46658987" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -570,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,8 +587,8 @@
         <state relative-caret-position="3025">
           <caret line="121" column="74" lean-forward="true" selection-start-line="121" selection-start-column="48" selection-end-line="121" selection-end-column="74" />
           <folding>
-            <marker date="1647853838429" expanded="false" signature="10414:16760" ph="..." />
-            <marker date="1647853838429" expanded="false" signature="41913:42273" ph="..." />
+            <marker date="1649146461007" expanded="false" signature="10414:16760" ph="..." />
+            <marker date="1649146461007" expanded="false" signature="41913:42273" ph="..." />
           </folding>
         </state>
       </provider>
@@ -785,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
           <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,15 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6400">
           <caret line="384" column="14" lean-forward="false" selection-start-line="384" selection-start-column="14" selection-end-line="384" selection-end-column="14" />
-          <folding>
-            <element signature="e#13427#14956#0#Blade" expanded="false" />
-            <element signature="e#15316#21559#0#Blade" expanded="false" />
-            <marker date="1647444551694" expanded="false" signature="16632:17844" ph="..." />
-            <marker date="1647444551694" expanded="false" signature="17930:19137" ph="..." />
-            <marker date="1647444551694" expanded="false" signature="19225:20434" ph="..." />
-            <marker date="1647444551694" expanded="false" signature="20523:21534" ph="..." />
-            <marker date="1647444551694" expanded="false" signature="22161:23058" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,7 +926,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/equipe.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="2150">
           <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
           <folding>
             <marker date="1648458644896" expanded="false" signature="4195:4944" ph="..." />
@@ -952,9 +943,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fideloper/proxy/src/TrustProxies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="337">
           <caret line="399" column="150" lean-forward="false" selection-start-line="399" selection-start-column="150" selection-end-line="399" selection-end-column="150" />
           <folding>
             <element signature="e#141#1647#0#Blade" expanded="false" />
@@ -978,44 +993,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/contacts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="76" column="68" lean-forward="false" selection-start-line="76" selection-start-column="68" selection-end-line="76" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="87" column="135" lean-forward="false" selection-start-line="87" selection-start-column="135" selection-end-line="87" selection-end-column="135" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/myViews/frontOffice/layout/frontOfficeLayout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="92" lean-forward="true" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
+        <state relative-caret-position="25">
+          <caret line="604" column="84" lean-forward="false" selection-start-line="604" selection-start-column="84" selection-end-line="604" selection-end-column="84" />
           <folding>
-            <marker date="1647853838429" expanded="false" signature="10414:16760" ph="..." />
-            <marker date="1647853838429" expanded="false" signature="41913:42273" ph="..." />
+            <marker date="1649146461007" expanded="false" signature="10414:16760" ph="..." />
+            <marker date="1649146461007" expanded="false" signature="41913:42273" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fideloper/proxy/src/TrustProxies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

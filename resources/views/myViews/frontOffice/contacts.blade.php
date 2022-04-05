@@ -85,7 +85,7 @@
                     </p>
 
                     <p class="text-center lh-2">
-                        <i class="fab fa-twitter fa-2x c-secondary"></i> <a class="text-dark" href="skype:christian_masit?call">@christian_masit</a>
+                        <i class="fab fa-twitter fa-2x c-secondary"></i> <a class="text-dark" href="https://twitter.com/christian_masit" target="_blank">@christian_masit</a>
                     </p>
 
                     {{--
